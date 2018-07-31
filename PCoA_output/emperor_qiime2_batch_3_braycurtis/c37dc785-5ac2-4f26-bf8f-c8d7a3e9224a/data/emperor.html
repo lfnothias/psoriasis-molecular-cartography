@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Emperor</title>
+    <!-- core dependencies that are otherwise included via the jupyter notebook -->
+    <script src="./vendor/js/require-2.1.22.min.js"></script>
+    <script src="./vendor/js/jquery-2.1.4.min.js"></script>
+    <meta charset="utf-8">
+
+    <script type="text/javascript">
+
+if ($("#emperor-css").length == 0){{
+    $("head").append([
+
+        '<link id="emperor-css" rel="stylesheet" type="text/css" href="./css/emperor.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery-ui.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/slick.grid.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/spectrum.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/chosen.min.css">',
+        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery.contextMenu.min.css">'
+    ]);
+}}
+</script>
+
+
+    <style>
+      #emperor-notebook-0x6c7d0add {
+        height:100vh !important;
+        padding: 0px !important;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id='emperor-notebook-0x6c7d0add' style="position: relative; width:100%; height:500px;">
+  <div class='loading' style="position: absolute;top: 50%;left: 50%;margin-left: -229px; margin-top: -59px; z-index: 10000;height:118px;width:458px;padding:0px"><img src='./img/emperor.png' alt='Emperor resources missing. Expected them to be found in .'></div>
+</div>
+</div>
+
+<script type="text/javascript">
+requirejs.config({
+// the left side is the module name, and the right side is the path
+// relative to the baseUrl attribute, do NOT include the .js extension
+'paths': {
+  /* jQuery */
+  'jquery': './vendor/js/jquery-2.1.4.min',
+  'jqueryui': './vendor/js/jquery-ui.min',
+  'jquery_drag': './vendor/js/jquery.event.drag-2.2.min',
+
+  /* jQuery plugins */
+  'chosen': './vendor/js/chosen.jquery.min',
+  'spectrum': './vendor/js/spectrum.min',
+  'position': './vendor/js/jquery.ui.position.min',
+  'contextmenu': './vendor/js/jquery.contextMenu.min',
+
+  /* other libraries */
+  'underscore': './vendor/js/underscore-min',
+  'chroma': './vendor/js/chroma.min',
+  'filesaver': './vendor/js/FileSaver.min',
+  'blob': './vendor/js/Blob',
+  'canvastoblob': './vendor/js/canvas-toBlob',
+  'd3': './vendor/js/d3.min',
+
+  /* THREE.js and plugins */
+  'three': './vendor/js/three.min',
+  'orbitcontrols': './vendor/js/three.js-plugins/OrbitControls',
+  'projector': './vendor/js/three.js-plugins/Projector',
+  'svgrenderer': './vendor/js/three.js-plugins/SVGRenderer',
+  'canvasrenderer': './vendor/js/three.js-plugins/CanvasRenderer',
+
+  /* SlickGrid */
+  'slickcore': './vendor/js/slick.core.min',
+  'slickgrid': './vendor/js/slick.grid.min',
+  'slickformatters': './vendor/js/slick.editors.min',
+  'slickeditors': './vendor/js/slick.formatters.min',
+
+  /* Emperor's objects */
+  'util': './js/util',
+  'model': './js/model',
+  'view': './js/view',
+  'controller': './js/controller',
+  'draw': './js/draw',
+  'scene3d': './js/sceneplotview3d',
+  'shapes': './js/shapes',
+  'animationdirector': './js/animate',
+  'trajectory': './js/trajectory',
+
+  /* controllers */
+  'abcviewcontroller': './js/abc-view-controller',
+  'viewcontroller': './js/view-controller',
+  'colorviewcontroller': './js/color-view-controller',
+  'visibilitycontroller': './js/visibility-controller',
+  'opacityviewcontroller': './js/opacity-view-controller',
+  'scaleviewcontroller': './js/scale-view-controller',
+  'shapecontroller': './js/shape-controller',
+  'axescontroller': './js/axes-controller',
+  'animationscontroller': './js/animations-controller',
+
+  /* editors */
+  'shape-editor': './js/shape-editor',
+  'color-editor': './js/color-editor',
+  'scale-editor': './js/scale-editor'
+
+},
+/*
+   Libraries that are not AMD compatible need shim to declare their
+   dependencies.
+ */
+'shim': {
+  'jquery_drag': {
+    'deps': ['jquery', 'jqueryui']
+  },
+  'chosen': {
+    'deps': ['jquery'],
+    'exports': 'jQuery.fn.chosen'
+  },
+  'contextmenu' : {
+    'deps': ['jquery', 'jqueryui', 'position']
+  },
+  'filesaver' : {
+    'deps': ['blob']
+  },
+  'canvastoblob' : {
+    'deps': ['blob']
+  },
+  'slickcore': ['jqueryui'],
+  'slickgrid': ['slickcore', 'jquery_drag', 'slickformatters', 'slickeditors']
+}
+});
+
+requirejs(
+["jquery", "model", "controller"],
+function($, model, EmperorController) {
+  var DecompositionModel = model.DecompositionModel;
+
+  var div = $('#emperor-notebook-0x6c7d0add');
+
+  var data = {"plot": {"decomposition": {"axes_names": [0, 1, 2, 3, 4], "ci": null, "coordinates": [[-0.8925776660018664, -0.44881456132421355, -0.22271122979686858, -0.1683988560277281, 0.07996001910421835], [-0.45824155910212594, 0.5703184701183629, 0.20125961714547658, 0.24420746071579258, 0.17363334495907076], [-0.931694398607818, -0.34962544989461436, -0.11237207498080422, -0.14129242542928747, -0.0014216975826873493], [0.2793961286880905, -0.16401782053314426, 0.33697074210891187, -0.09061982214847074, -0.1994053628078881], [0.414422392455867, -0.23218713436624608, 0.39061998723543123, -0.09355080035773389, -0.24311455464288267], [0.16475801219389033, 0.5584090435641192, -0.23982759090215264, -0.5593132248120714, 0.2826201203260396], [0.22604399669861408, -0.026617848495820967, -0.06301338069414911, -0.1371939185536563, -0.28335440489069585], [-0.675331843182147, 0.030677349328150683, 0.11719107245876381, 0.13832202532897347, -0.3165761545663749], [-0.7592400516262339, -0.03512980354042397, 0.09288034877499574, 0.102115489935928, -0.2699844530169521], [-0.7391809677160366, -0.034604574646697556, 0.07414537191495803, 0.0851458272187268, -0.3357470485448139], [-0.9231887414996355, -0.538889596644349, -0.2676329728878779, -0.23640344576738356, 0.10433362419375448], [-0.9873414331440215, -0.521472166897516, -0.23183652005074942, -0.21863487526427877, 0.017862026371233287], [-0.9291075614504365, -0.5261273782807477, -0.2574767553199852, -0.23168790636883918, 0.09719946822440381], [0.4959330364332592, 0.15223355668070288, -0.3774804579669033, -0.23768407448415096, -0.25749263771814845], [-0.11864158600273511, -0.05417993861249377, -0.07682711157094795, -0.0012420977982559268, 0.12709647741542954], [0.47010507852193156, -0.3165781171324545, 0.5453974898698635, -0.12746027605345034, -0.04368294720102126], [0.5031424888309349, -0.329400146727294, 0.5322305030156836, -0.12833060230282958, 0.037025987650241676], [-0.9648192292105437, -0.4565228376436622, -0.012642301822545955, -0.1717866850152237, 0.0006817471301277069], [0.07750215991579781, 0.5236838921128332, -0.29398663320461355, -0.6621133225668455, 0.5680149419793513], [0.4941677624981554, 0.14556563408686535, -0.32375490472709256, -0.24781242511135188, -0.2486145429703756], [0.3619465205089689, -0.3779812803316826, 0.6594215442888571, -0.10457157934439804, 0.27509038419540016], [-1.0, -0.5073583259479924, -0.22585359335895863, -0.1950240658955513, 0.03202758625019307], [0.3022468119572346, -0.33790764798628986, 0.7503779389464528, -0.10821250203218484, 0.3092668448043031], [-0.9367001867768946, -0.4631566151585755, -0.21139901779960418, -0.18025935569436696, 0.03909952699267571], [0.0717120464060249, 0.5821907329238702, -0.28099728827972953, -0.6422912529597823, 0.573583754911159], [0.5328833986282548, 0.12214914444867858, -0.36711954337359154, -0.27243215356524375, -0.1905875391895753], [0.48070708342524554, -0.16445136645183148, -0.1978296841288882, 0.049107825625551334, -0.42018606436495715], [0.08855439425872544, -0.07147755818688746, 0.08304038375689884, -0.15745800360043863, -0.21838194237282638], [0.08735535080055054, -0.08737055464626411, 0.12341699626643232, -0.15113129730239272, -0.15715132834084858], [0.1985040129048602, -0.32355689806446747, 0.7395098908852158, -0.12272933855950825, 0.41203492616730514], [0.5555873027588409, -0.3784983494985277, 0.49738568948819983, -0.035925761431195885, -0.02659210532006088], [0.4816434706463637, -0.36273483214192215, 0.6024006112777647, -0.06859524026968146, 0.09948051069526039], [-0.9202236048423835, -0.17156520774392123, 0.01179770679394803, 0.0032066349290399755, -0.22621143033400337], [0.5551486086547645, -0.37090589557692044, 0.4246435838943316, -0.038624525781727426, -0.03852182578006684], [-0.7646264448007545, -0.10501849040451774, 0.011427957853526407, 0.059677844755141214, -0.3169438396625073], [0.5169226517134882, -0.35690992361919094, 0.41327667532493123, -0.010412637550854777, -0.11455326985158626], [-0.9432876769182404, -0.47756676611003185, -0.1871007998510058, -0.1780629783449456, -0.049231291215582194], [0.5418889176098639, -0.2980100046299098, 0.13544048143991153, 0.08042256339200204, -0.28598272393833063], [0.3620879536656248, -0.0382380079415629, -0.0743696849064739, -0.13207231072213216, -0.3710875058458273], [-0.4735644733560921, 0.6099380236014191, 0.3798919199761464, 0.2265638322634685, 0.18224501438405216], [-0.26555887712184434, 0.6258690856847211, 0.249323677844739, 0.3008886210755145, -0.0066519087264639235], [0.11879247535643483, -0.26910976891085875, 0.6547031241267642, -0.0885374758472479, 0.4484398519556584], [0.38658364477951784, -0.15441056142220785, -0.14810434085318427, 0.0072839701124616605, -0.40354478133207367], [0.19785133290449994, -0.36226931958505965, 0.7330245934581245, -0.10833437641953857, 0.43256088454729075], [-0.08625074749205534, 0.5926489243669976, 0.153987685807112, 0.25825704190030563, -0.31324295072435204], [-0.2614257934547303, 0.7058984645544175, 0.2948498645152371, 0.2054001333715781, 0.025507900286019944], [-0.3749106444427083, 0.6891611637482755, 0.34831210450319927, 0.3584588698044003, -0.1703858706874566], [0.3873524342662914, -0.33544904638441286, 0.6790715645913049, -0.034809592354474984, 0.04480671698767156], [0.3097180962807715, -0.2805483248649724, -0.26756152681878487, 0.5873511891985612, 0.6089353434893543], [0.36064157273440456, -0.06785281387661521, 0.046176228805575384, -0.1502582055858611, -0.35211010128964076], [-0.5526696524830419, 0.6013089404887776, 0.2445696609595179, 0.2470000163416462, 0.1892754677756765], [-0.8230948854266077, -0.3718622620563783, -0.12500990149303465, -0.08880667528330811, -0.11370745746456173], [0.3925332574493918, -0.0326327336071695, -0.3361621655894672, -0.02698335502196074, -0.35841991279141805], [-0.43406238803912567, 0.7397204911184779, 0.3338799941875638, 0.2339584351178548, 0.05816955289942565], [0.17606307798447837, 0.40885257423939114, -0.3668671800304055, -0.710104834959937, 0.4570649269006026], [0.5465978614844154, -0.0653497191073126, -0.36410750792953334, -0.015705848013461414, -0.38114490856092076], [0.38277777534423446, 0.4134305681035657, -0.28667705527036175, -0.37999930239469565, 0.006895222724704724], [0.5340428472836241, -0.39653036747741444, 0.4890158961352277, -0.01160895733431723, -0.10927365404064822], [0.2695005246837716, -0.21977849484016135, -0.4124526049856984, 0.6322258523998867, 0.519813279341292], [0.38153750220928107, -0.27531629434241295, -0.28452327950542916, 0.5640755971309009, 0.4946301991844377], [-0.020534238643251202, 0.6727808676080574, 0.16070352417688621, 0.20402060088179907, -0.1923393825642943], [-0.38001166998741287, 0.7714395710686587, 0.2712225477042071, 0.2694018631897878, 0.08675638202884137], [0.4025743959347869, 0.30261243003722343, -0.3632465108860432, -0.4664244182015935, 0.0007185121762725426], [0.5233623553337744, -0.20910111978523385, -0.3266402129875386, 0.17604346964838238, -0.4285030052779667], [0.3043727955324057, 0.3183767154730767, -0.4146986519714851, -0.5959950148107416, 0.18123884357031628], [0.18535900859832127, 0.4605453918923448, -0.01832045159614701, 0.18383861307017543, -0.3103597339810674], [0.3754398648160232, 0.24715340883169737, -0.44582044493843764, -0.5509363123937904, 0.1528082748793645], [-0.3972644707964218, 0.7809324946085016, 0.31708694711859636, 0.25602285159415455, 0.05894261226978145], [0.0944271535342389, 0.4212173056446045, 0.10020464309313078, 0.22986036254493603, -0.2906244563325635], [0.30461316888364104, -0.23106919423525343, -0.50497153625755, 0.6837032694107046, 0.5050858123094915], [-0.326771264682928, 0.7896267792976216, 0.31745197884699294, 0.29871996435761844, -0.0700098538096459], [0.36280930239770814, 0.301963842913739, -0.3639393866096288, -0.5575410393305892, 0.18101449662410532], [0.35448923932038184, -0.1631139836639983, -0.4419557175153222, 0.37870870826831743, -0.3154033958298284], [0.44627948223395286, 0.18037322259435323, -0.4709721105627746, -0.17794443742640953, -0.1791753678413696], [0.36675318743372326, -0.21442286318845621, -0.5477007993946927, 0.5643643594448039, -0.1215711544733299], [0.3279027408220161, -0.21452941387119873, -0.5854785986464788, 0.6128911885068653, 0.03125974697972626], [0.26168119952514907, -0.2185175027526004, -0.5337509524846683, 0.7076118599589357, 0.5543328876194699], [0.30021866871211933, -0.20528368665522012, -0.6139688066755632, 0.6860644834016312, 0.23591734614390103], [0.02338751079337412, -0.10505551933239705, -0.26914925996571476, 0.18039678159805086, 0.04586199943799343]], "edges": [], "percents_explained": [19.777499896420927, 11.927259558944305, 10.386561512438792, 7.90871484572824, 5.793251908594894], "sample_ids": ["V7-arm-healthy-BA7", "V10-arm-healthy-BC3", "V7-arm-healthy-BB3", "V8-arm-healthy-BD3", "V8-arm-healthy-BE3", "V11-arm-healthy-BF3", "V9-arm-healthy-BG3", "V7-arm-healthy-BB7", "V7-arm-healthy-BB6", "V7-arm-psoriasis-BB9", "V7-arm-healthy-BA5", "V7-arm-healthy-BA3", "V7-arm-healthy-BA4", "V11-arm-healthy-BH1", "V9-arm-healthy-BG5", "V8-arm-healthy-BD4", "V8-arm-healthy-BE4", "V7-arm-healthy-BB4", "V11-arm-healthy-BF4", "V11-arm-healthy-BH2", "V8-arm-healthy-BE5", "V7-arm-healthy-BA6", "V8-arm-healthy-BD6", "V7-arm-healthy-BA8", "V11-arm-healthy-BF5", "V11-arm-healthy-BH3", "V9-arm-psoriasis-BG9", "V9-arm-healthy-BG6", "V9-arm-healthy-BG4", "V8-arm-healthy-BE7", "V8-arm-healthy-BD5", "V8-arm-healthy-BD8", "V7-arm-healthy-BB8", "V8-arm-healthy-BE8", "V7-arm-psoriasis-BB10", "V8-arm-psoriasis-BE10", "V7-arm-psoriasis-BA10", "V8-arm-psoriasis-BE9", "V9-arm-healthy-BG8", "V10-arm-healthy-BC6", "V10-back-healthy-BC9", "V8-arm-healthy-BD7", "V9-arm-psoriasis-BG10", "V8-arm-healthy-BE6", "V10-arm-psoriasis-BC7", "V10-back-healthy-BC8", "V10-back-healthy-BE12", "V8-arm-psoriasis-BD10", "V12-leg-healthy-BH8", "V9-arm-healthy-BG7", "V10-arm-healthy-BC4", "V7-arm-psoriasis-BA9", "V11-arm-psoriasis-BF11", "V10-arm-healthy-BC5", "V11-arm-healthy-BF6", "V11-arm-psoriasis-BH5", "V11-arm-healthy-BH4", "V8-arm-psoriasis-BD9", "V12-leg-healthy-BH9", "V12-leg-healthy-BH7", "V10-back-psoriasis-BD11", "V10-back-healthy-BC10", "V11-arm-healthy-BF8", "V9-arm-psoriasis-BG11", "V11-arm-psoriasis-BF9", "V10-back-psoriasis-BD12", "V11-arm-psoriasis-BF10", "V10-back-healthy-BC11", "V10-back-psoriasis-BE11", "V12-leg-healthy-BH10", "V10-back-healthy-BC12", "V11-arm-healthy-BF7", "V12-leg-psoriasis-BA11", "V11-arm-healthy-BF12", "V12-leg-psoriasis-BA12", "V12-leg-psoriasis-BB11", "V12-leg-healthy-BH11", "V12-leg-healthy-BH12", "V7-arm-healthy-BB12"]}, "metadata": [["V7-arm-healthy-BA7", "30.0", "nan", "20.0", "BA7_7A7.V7_BA7_01_454.mzXML", "nan", "nan", "nan", "784.0", "nan", "2358.0", "7.0", "female", "BA7", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V10-arm-healthy-BC3", "30.0", "nan", "20.0", "BC3_7C3.V10_BC3_01_464.mzXML", "nan", "nan", "nan", "996.0", "nan", "2414.0", "10.0", "female", "BC3", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "20.0"], ["V7-arm-healthy-BB3", "30.0", "nan", "20.0", "BB3_7B3.V7_BB3_01_452.mzXML", "nan", "nan", "nan", "564.0", "nan", "2580.0", "7.0", "female", "BB3", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"], ["V8-arm-healthy-BD3", "30.0", "nan", "35.0", "BD3_7D3.V8_BD3_01_391.mzXML", "nan", "nan", "nan", "852.0", "nan", "964.0", "8.0", "female", "BD3", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V8-arm-healthy-BE3", "30.0", "nan", "35.0", "BE3_7E3.V8_BE3_01_385.mzXML", "nan", "nan", "nan", "852.0", "nan", "638.0", "8.0", "female", "BE3", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V11-arm-healthy-BF3", "30.0", "nan", "35.0", "BF3_7F3.V11_BF3_01_480.mzXML", "nan", "nan", "nan", "1138.0", "nan", "2094.0", "11.0", "male", "BF3", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V9-arm-healthy-BG3", "30.0", "nan", "35.0", "BG3_7G3.V9_BG3_01_388.mzXML", "nan", "nan", "nan", "920.0", "nan", "1380.0", "9.0", "male", "BG3", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V7-arm-healthy-BB7", "30.0", "nan", "20.0", "BB7_7B7.V7_BB7_01_416.mzXML", "nan", "nan", "nan", "802.0", "nan", "2640.0", "7.0", "female", "BB7", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"], ["V7-arm-healthy-BB6", "30.0", "nan", "20.0", "BB6_7B6.V7_BB6_01_468.mzXML", "nan", "nan", "nan", "692.0", "nan", "2708.0", "7.0", "female", "BB6", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"], ["V7-arm-psoriasis-BB9", "30.0", "nan", "20.0", "BB9_7B9.V7_BB9_01_477.mzXML", "nan", "nan", "nan", "670.0", "nan", "2628.0", "7.0", "female", "BB9", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "70.0"], ["V7-arm-healthy-BA5", "30.0", "nan", "20.0", "BA5_7A5.V7_BA5_01_476.mzXML", "nan", "nan", "nan", "716.0", "nan", "2488.0", "7.0", "female", "BA5", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V7-arm-healthy-BA3", "30.0", "nan", "20.0", "BA3_7A3.V7_BA3_01_420.mzXML", "nan", "nan", "nan", "604.0", "nan", "2358.0", "7.0", "female", "BA3", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V7-arm-healthy-BA4", "30.0", "nan", "20.0", "BA4_7A4.V7_BA4_01_451.mzXML", "nan", "nan", "nan", "604.0", "nan", "2464.0", "7.0", "female", "BA4", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V11-arm-healthy-BH1", "30.0", "nan", "35.0", "BH1_7H1.V11_BH1_01_400.mzXML", "nan", "nan", "nan", "976.0", "nan", "1990.0", "11.0", "male", "BH1", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "50.0"], ["V9-arm-healthy-BG5", "30.0", "nan", "35.0", "BG5_7G5.V9_BG5_01_386.mzXML", "nan", "nan", "nan", "1146.0", "nan", "1620.0", "9.0", "male", "BG5", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V8-arm-healthy-BD4", "30.0", "nan", "35.0", "BD4_7D4.V8_BD4_01_429.mzXML", "nan", "nan", "nan", "854.0", "nan", "1118.0", "8.0", "female", "BD4", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V8-arm-healthy-BE4", "30.0", "nan", "35.0", "BE4_7E4.V8_BE4_01_444.mzXML", "nan", "nan", "nan", "852.0", "nan", "812.0", "8.0", "female", "BE4", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V7-arm-healthy-BB4", "30.0", "nan", "20.0", "BB4_7B4.V7_BB4_01_475.mzXML", "nan", "nan", "nan", "564.0", "nan", "2698.0", "7.0", "female", "BB4", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"], ["V11-arm-healthy-BF4", "30.0", "nan", "35.0", "BF4_7F4.V11_BF4_01_443.mzXML", "nan", "nan", "nan", "1252.0", "nan", "2150.0", "11.0", "male", "BF4", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V11-arm-healthy-BH2", "30.0", "nan", "35.0", "BH2_7H2.V11_BH2_01_421.mzXML", "nan", "nan", "nan", "1014.0", "nan", "1862.0", "11.0", "male", "BH2", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "50.0"], ["V8-arm-healthy-BE5", "30.0", "nan", "35.0", "BE5_7E5.V8_BE5_01_450.mzXML", "nan", "nan", "nan", "1086.0", "nan", "844.0", "8.0", "female", "BE5", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V7-arm-healthy-BA6", "30.0", "nan", "20.0", "BA6_7A6.V7_BA6_01_439.mzXML", "nan", "nan", "nan", "802.0", "nan", "2422.0", "7.0", "female", "BA6", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V8-arm-healthy-BD6", "30.0", "nan", "35.0", "BD6_7D6.V8_BD6_01_381.mzXML", "nan", "nan", "nan", "1308.0", "nan", "1118.0", "8.0", "female", "BD6", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V7-arm-healthy-BA8", "30.0", "nan", "20.0", "BA8_7A8.V7_BA8_01_448.mzXML", "nan", "nan", "nan", "708.0", "nan", "2352.0", "7.0", "female", "BA8", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "70.0"], ["V11-arm-healthy-BF5", "30.0", "nan", "35.0", "BF5_7F5.V11_BF5_01_459.mzXML", "nan", "nan", "nan", "1326.0", "nan", "2080.0", "11.0", "male", "BF5", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V11-arm-healthy-BH3", "30.0", "nan", "35.0", "BH3_7H3.V11_BH3_01_442.mzXML", "nan", "nan", "nan", "842.0", "nan", "1822.0", "11.0", "male", "BH3", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "50.0"], ["V9-arm-psoriasis-BG9", "30.0", "nan", "35.0", "BG9_7G9.V9_BG9_01_446.mzXML", "nan", "nan", "nan", "1042.0", "nan", "1512.0", "9.0", "male", "BG9", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "65.0"], ["V9-arm-healthy-BG6", "30.0", "nan", "35.0", "BG6_7G6.V9_BG6_01_449.mzXML", "nan", "nan", "nan", "1316.0", "nan", "1558.0", "9.0", "male", "BG6", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V9-arm-healthy-BG4", "30.0", "nan", "35.0", "BG4_7G4.V9_BG4_01_440.mzXML", "nan", "nan", "nan", "870.0", "nan", "1580.0", "9.0", "male", "BG4", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V8-arm-healthy-BE7", "30.0", "nan", "35.0", "BE7_7E7.V8_BE7_01_460.mzXML", "nan", "nan", "nan", "1308.0", "nan", "638.0", "8.0", "female", "BE7", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V8-arm-healthy-BD5", "30.0", "nan", "35.0", "BD5_7D5.V8_BD5_01_393.mzXML", "nan", "nan", "nan", "1086.0", "nan", "1170.0", "8.0", "female", "BD5", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V8-arm-healthy-BD8", "30.0", "nan", "35.0", "BD8_7D8.V8_BD8_01_409.mzXML", "nan", "nan", "nan", "1086.0", "nan", "922.0", "8.0", "female", "BD8", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V7-arm-healthy-BB8", "30.0", "nan", "20.0", "BB8_7B8.V7_BB8_01_382.mzXML", "nan", "nan", "nan", "692.0", "nan", "2542.0", "7.0", "female", "BB8", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"], ["V8-arm-healthy-BE8", "30.0", "nan", "35.0", "BE8_7E8.V8_BE8_01_467.mzXML", "nan", "nan", "nan", "1146.0", "nan", "608.0", "8.0", "female", "BE8", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V7-arm-psoriasis-BB10", "30.0", "nan", "20.0", "BB10_7B10.V7_BB10_01_389.mzXML", "nan", "nan", "nan", "716.0", "nan", "2626.0", "7.0", "female", "BB10", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "70.0"], ["V8-arm-psoriasis-BE10", "30.0", "nan", "20.0", "BE10_7E10.V8_BE10_01_390.mzXML", "nan", "nan", "nan", "1150.0", "nan", "724.0", "8.0", "female", "BE10", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "55.0"], ["V7-arm-psoriasis-BA10", "30.0", "nan", "20.0", "BA10_7A10.V7_BA10_01_455.mzXML", "nan", "nan", "nan", "738.0", "nan", "2418.0", "7.0", "female", "BA10", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "70.0"], ["V8-arm-psoriasis-BE9", "30.0", "nan", "35.0", "BE9_7E9.V8_BE9_01_473.mzXML", "nan", "nan", "nan", "1098.0", "nan", "688.0", "8.0", "female", "BE9", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "55.0"], ["V9-arm-healthy-BG8", "30.0", "nan", "35.0", "BG8_7G8.V9_BG8_01_395.mzXML", "nan", "nan", "nan", "1100.0", "nan", "1320.0", "9.0", "male", "BG8", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V10-arm-healthy-BC6", "30.0", "nan", "20.0", "BC6_7C6.V10_BC6_01_433.mzXML", "nan", "nan", "nan", "1074.0", "nan", "2370.0", "10.0", "female", "BC6", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "20.0"], ["V10-back-healthy-BC9", "30.0", "nan", "20.0", "BC9_7C9.V10_BC9_01_380.mzXML", "nan", "nan", "nan", "1162.0", "nan", "2846.0", "10.0", "female", "BC9", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V8-arm-healthy-BD7", "30.0", "nan", "35.0", "BD7_7D7.V8_BD7_01_438.mzXML", "nan", "nan", "nan", "1308.0", "nan", "964.0", "8.0", "female", "BD7", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "55.0"], ["V9-arm-psoriasis-BG10", "30.0", "nan", "35.0", "BG10_7G10.V9_BG10_01_403.mzXML", "nan", "nan", "nan", "1154.0", "nan", "1482.0", "9.0", "male", "BG10", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "65.0"], ["V8-arm-healthy-BE6", "30.0", "nan", "35.0", "BE6_7E6.V8_BE6_01_425.mzXML", "nan", "nan", "nan", "1308.0", "nan", "812.0", "8.0", "female", "BE6", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "55.0"], ["V10-arm-psoriasis-BC7", "30.0", "nan", "20.0", "BC7_7C7.V10_BC7_01_472.mzXML", "nan", "nan", "nan", "1068.0", "nan", "2432.0", "10.0", "female", "BC7", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "20.0"], ["V10-back-healthy-BC8", "30.0", "nan", "20.0", "BC8_7C8.V10_BC8_01_417.mzXML", "nan", "nan", "nan", "1036.0", "nan", "2806.0", "10.0", "female", "BC8", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V10-back-healthy-BE12", "30.0", "nan", "20.0", "BE12_7E12.V10_BE12_01_469.mzXML", "nan", "nan", "nan", "974.0", "nan", "2718.0", "10.0", "female", "BE12", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V8-arm-psoriasis-BD10", "30.0", "nan", "35.0", "BD10_7D10.V8_BD10_01_399.mzXML", "nan", "nan", "nan", "1094.0", "nan", "1040.0", "8.0", "female", "BD10", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "55.0"], ["V12-leg-healthy-BH8", "30.0", "nan", "20.0", "BH8_7H8.V12_BH8_01_474.mzXML", "nan", "nan", "nan", "566.0", "nan", "2860.0", "12.0", "female", "BH8", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V9-arm-healthy-BG7", "30.0", "nan", "35.0", "BG7_7G7.V9_BG7_01_406.mzXML", "nan", "nan", "nan", "1276.0", "nan", "1342.0", "9.0", "male", "BG7", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "65.0"], ["V10-arm-healthy-BC4", "30.0", "nan", "20.0", "BC4_7C4.V10_BC4_01_428.mzXML", "nan", "nan", "nan", "1066.0", "nan", "2486.0", "10.0", "female", "BC4", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "20.0"], ["V7-arm-psoriasis-BA9", "30.0", "nan", "20.0", "BA9_7A9.V7_BA9_01_432.mzXML", "nan", "nan", "nan", "700.0", "nan", "2412.0", "7.0", "female", "BA9", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "70.0"], ["V11-arm-psoriasis-BF11", "30.0", "nan", "35.0", "BF11_7F11.V11_BF11_01_479.mzXML", "nan", "nan", "nan", "1254.0", "nan", "1788.0", "11.0", "male", "BF11", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "50.0"], ["V10-arm-healthy-BC5", "30.0", "nan", "20.0", "BC5_7C5.V10_BC5_01_437.mzXML", "nan", "nan", "nan", "1142.0", "nan", "2442.0", "10.0", "female", "BC5", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "20.0"], ["V11-arm-healthy-BF6", "30.0", "nan", "35.0", "BF6_7F6.V11_BF6_01_422.mzXML", "nan", "nan", "nan", "1352.0", "nan", "1950.0", "11.0", "male", "BF6", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V11-arm-psoriasis-BH5", "30.0", "nan", "35.0", "BH5_7H5.V11_BH5_01_387.mzXML", "nan", "nan", "nan", "922.0", "nan", "1840.0", "11.0", "male", "BH5", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "50.0"], ["V11-arm-healthy-BH4", "30.0", "nan", "35.0", "BH4_7H4.V11_BH4_01_404.mzXML", "nan", "nan", "nan", "802.0", "nan", "1942.0", "11.0", "male", "BH4", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "50.0"], ["V8-arm-psoriasis-BD9", "30.0", "nan", "35.0", "BD9_7D9.V8_BD9_01_430.mzXML", "nan", "nan", "nan", "1176.0", "nan", "1040.0", "8.0", "female", "BD9", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "55.0"], ["V12-leg-healthy-BH9", "30.0", "nan", "20.0", "BH9_7H9.V12_BH9_01_397.mzXML", "nan", "nan", "nan", "626.0", "nan", "2940.0", "12.0", "female", "BH9", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V12-leg-healthy-BH7", "30.0", "nan", "20.0", "BH7_7H7.V12_BH7_01_466.mzXML", "nan", "nan", "nan", "516.0", "nan", "2854.0", "12.0", "female", "BH7", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V10-back-psoriasis-BD11", "30.0", "nan", "20.0", "BD11_7D11.V10_BD11_01_401.mzXML", "nan", "nan", "nan", "1010.0", "nan", "2628.0", "10.0", "female", "BD11", "Maxis", "psoriasis", "psoriasis", "back", "middle", "3-P1", "3.0", "20.0"], ["V10-back-healthy-BC10", "30.0", "nan", "20.0", "BC10_7C10.V10_BC10_01_377.mzXML", "nan", "nan", "nan", "1146.0", "nan", "2612.0", "10.0", "female", "BC10", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V11-arm-healthy-BF8", "30.0", "nan", "35.0", "BF8_7F8.V11_BF8_01_384.mzXML", "nan", "nan", "nan", "1140.0", "nan", "1972.0", "11.0", "male", "BF8", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V9-arm-psoriasis-BG11", "30.0", "nan", "35.0", "BG11_7G11.V9_BG11_01_392.mzXML", "nan", "nan", "nan", "1256.0", "nan", "1456.0", "9.0", "male", "BG11", "Maxis", "psoriasis", "psoriasis", "arm", "right", "3-P1", "3.0", "65.0"], ["V11-arm-psoriasis-BF9", "30.0", "nan", "35.0", "BF9_7F9.V11_BF9_01_423.mzXML", "nan", "nan", "nan", "1228.0", "nan", "2002.0", "11.0", "male", "BF9", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "50.0"], ["V10-back-psoriasis-BD12", "30.0", "nan", "20.0", "BD12_7D12.V10_BD12_01_379.mzXML", "nan", "nan", "nan", "1042.0", "nan", "2632.0", "10.0", "female", "BD12", "Maxis", "psoriasis", "psoriasis", "back", "middle", "3-P1", "3.0", "20.0"], ["V11-arm-psoriasis-BF10", "30.0", "nan", "35.0", "BF10_7F10.V11_BF10_01_408.mzXML", "nan", "nan", "nan", "1254.0", "nan", "1924.0", "11.0", "male", "BF10", "Maxis", "psoriasis", "psoriasis", "arm", "left", "3-P1", "3.0", "50.0"], ["V10-back-healthy-BC11", "30.0", "nan", "20.0", "BC11_7C11.V10_BC11_01_398.mzXML", "nan", "nan", "nan", "1068.0", "nan", "2548.0", "10.0", "female", "BC11", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V10-back-psoriasis-BE11", "30.0", "nan", "20.0", "BE11_7E11.V10_BE11_01_456.mzXML", "nan", "nan", "nan", "1134.0", "nan", "2776.0", "10.0", "female", "BE11", "Maxis", "psoriasis", "psoriasis", "back", "middle", "3-P1", "3.0", "20.0"], ["V12-leg-healthy-BH10", "30.0", "nan", "20.0", "BH10_7H10.V12_BH10_01_461.mzXML", "nan", "nan", "nan", "722.0", "nan", "2884.0", "12.0", "female", "BH10", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V10-back-healthy-BC12", "30.0", "nan", "20.0", "BC12_7C12.V10_BC12_01_441.mzXML", "nan", "nan", "nan", "972.0", "nan", "2592.0", "10.0", "female", "BC12", "Maxis", "healthy", "healthy", "back", "middle", "3-P1", "3.0", "20.0"], ["V11-arm-healthy-BF7", "30.0", "nan", "35.0", "BF7_7F7.V11_BF7_01_419.mzXML", "nan", "nan", "nan", "1180.0", "nan", "1862.0", "11.0", "male", "BF7", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V12-leg-psoriasis-BA11", "30.0", "nan", "20.0", "BA11_7A11.V12_BA11_01_396.mzXML", "nan", "nan", "nan", "660.0", "nan", "2868.0", "12.0", "female", "BA11", "Maxis", "psoriasis", "psoriasis", "leg", "left", "3-P1", "3.0", "40.0"], ["V11-arm-healthy-BF12", "30.0", "nan", "35.0", "BF12_7F12.V11_BF12_01_376.mzXML", "nan", "nan", "nan", "870.0", "nan", "2018.0", "11.0", "male", "BF12", "Maxis", "healthy", "healthy", "arm", "left", "3-P1", "3.0", "50.0"], ["V12-leg-psoriasis-BA12", "30.0", "nan", "20.0", "BA12_7A12.V12_BA12_01_407.mzXML", "nan", "nan", "nan", "604.0", "nan", "2888.0", "12.0", "female", "BA12", "Maxis", "psoriasis", "psoriasis", "leg", "left", "3-P1", "3.0", "40.0"], ["V12-leg-psoriasis-BB11", "30.0", "nan", "20.0", "BB11_7B11.V12_BB11_01_394.mzXML", "nan", "nan", "nan", "630.0", "nan", "2850.0", "12.0", "female", "BB11", "Maxis", "psoriasis", "psoriasis", "leg", "left", "3-P1", "3.0", "40.0"], ["V12-leg-healthy-BH11", "30.0", "nan", "20.0", "BH11_7H11.V12_BH11_01_378.mzXML", "nan", "nan", "nan", "786.0", "nan", "2892.0", "12.0", "female", "BH11", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V12-leg-healthy-BH12", "30.0", "nan", "20.0", "BH12_7H12.V12_BH12_01_471.mzXML", "nan", "nan", "nan", "642.0", "nan", "2804.0", "12.0", "female", "BH12", "Maxis", "healthy", "healthy", "leg", "left", "3-P1", "3.0", "40.0"], ["V7-arm-healthy-BB12", "30.0", "nan", "20.0", "BB12_7B12.V7.Empty_BB12_01_373.mzXML", "nan", "nan", "nan", "896.0", "nan", "2657.0", "7.0", "female", "BB12", "Maxis", "healthy", "healthy", "arm", "right", "3-P1", "3.0", "70.0"]], "metadata_headers": ["SampleID", "test", "radius+", "radius", "ZSampleID", "Z+", "Z", "Y+", "Y", "X+", "X", "Subject", "Sex", "Name", "MassSpec", "DESCRIPTION_3", "DESCRIPTION_2", "DESCRIPTION", "Body_side", "Batch-Plate", "Batch", "Age"], "settings": {}, "type": "scatter"}};
+
+  var plot, biplot = null, ec;
+
+  function init() {
+    // Initialize the DecompositionModel for the scatter plot, and optionally
+    // add one for the biplot arrows
+    plot = new DecompositionModel(data.plot.decomposition,
+                                  data.plot.metadata_headers,
+                                  data.plot.metadata,
+                                  data.plot.type);
+
+    if (data.biplot) {
+      biplot = new DecompositionModel(data.biplot.decomposition,
+                                      data.biplot.metadata_headers,
+                                      data.biplot.metadata,
+                                      data.biplot.type);
+    }
+
+    ec = new EmperorController(plot, biplot, "emperor-notebook-0x6c7d0add");
+  }
+
+  function animate() {
+    requestAnimationFrame(animate);
+    ec.render();
+  }
+  $(window).resize(function() {
+    ec.resize(div.innerWidth(), div.innerHeight());
+  });
+
+  $(function(){
+    init();
+    animate();
+
+    ec.ready = function () {
+      // any other code that needs to be executed when emperor is loaded should
+      // go here
+      ec.loadConfig(data.plot.settings);
+    }
+  });
+
+}); // END REQUIRE.JS block
+</script>
+  </body>
+</html>

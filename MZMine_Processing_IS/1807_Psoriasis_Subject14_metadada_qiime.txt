@@ -1,0 +1,17 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V14-arm-healthy-BD5	30		25	BD5_V14_S2-016_arm_healthy_BD5_01_14509.mzXML				2036		268	14	female	BD5	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC4	30		25	BC4_V14_S2-003_arm_healthy_BC4_01_14507.mzXML				1794		218	14	female	BC4	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC9	30		25	BC9_V14_S2-008_arm_healthy_BC9_01_14470.mzXML				1888		282	14	female	BC9	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BD1	30		25	BD1_V14_S2-012_arm_healthy_BD1_01_14403.mzXML				1960		274	14	female	BD1	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC6	30		25	BC6_V14_S2-005_arm_healthy_BC6_01_14469.mzXML				1872		76	14	female	BC6	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC5	30		25	BC5_V14_S2-004_arm_healthy_BC5_01_14444.mzXML				1806		282	14	female	BC5	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC3	30		25	BC3_V14_S2-002_arm_healthy_BC3_01_14434.mzXML				1800		152	14	female	BC3	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-psoriasis-BC7	30		25	BC7_V14_S2-006_arm_psoriasis_BC7_01_14399.mzXML				1876		142	14	female	BC7	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V14-arm-healthy-BD2	30		25	BD2_V14_S2-013_arm_healthy_BD2_01_14400.mzXML				2028		80	14	female	BD2	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-psoriasis-BD4	30		25	BD4_V14_S2-015_arm_psoriasis_BD4_01_14378.mzXML				2042		214	14	female	BD4	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V14-arm-healthy-BC2	30		25	BC2_V14_S2-001_arm_healthy_BC2_01_14364.mzXML				1806		76	14	female	BC2	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-psoriasis-BC8	30		25	BC8_V14_S2-007_arm_psoriasis_BC8_01_14366.mzXML				1880		222	14	female	BC8	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V14-arm-healthy-BC10	30		25	BC10_V14_S2-009_arm_healthy_BC10_01_14327.mzXML				1964		86	14	female	BC10	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BD3	30		25	BD3_V14_S2-014_arm_healthy_BD3_01_14337.mzXML				2038		138	14	female	BD3	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-psoriasis-BC11	30		25	BC11_V14_S2-010_arm_psoriasis_BC11_01_14324.mzXML				1956		142	14	female	BC11	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V14-arm-psoriasis-BC12	30		25	BC12_V14_S2-011_arm_psoriasis_BC12_01_14321.mzXML				1960		218	14	female	BC12	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59

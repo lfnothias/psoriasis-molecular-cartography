@@ -1,0 +1,10 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V9-arm-healthy-BG3	30		35	BG3_7G3.V9_BG3_01_388.mzXML				920		1380	9	male	BG3	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-healthy-BG5	30		35	BG5_7G5.V9_BG5_01_386.mzXML				1146		1620	9	male	BG5	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-psoriasis-BG9	30		35	BG9_7G9.V9_BG9_01_446.mzXML				1042		1512	9	male	BG9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65
+V9-arm-healthy-BG6	30		35	BG6_7G6.V9_BG6_01_449.mzXML				1316		1558	9	male	BG6	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-healthy-BG4	30		35	BG4_7G4.V9_BG4_01_440.mzXML				870		1580	9	male	BG4	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-healthy-BG8	30		35	BG8_7G8.V9_BG8_01_395.mzXML				1100		1320	9	male	BG8	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-psoriasis-BG10	30		35	BG10_7G10.V9_BG10_01_403.mzXML				1154		1482	9	male	BG10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65
+V9-arm-healthy-BG7	30		35	BG7_7G7.V9_BG7_01_406.mzXML				1276		1342	9	male	BG7	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-psoriasis-BG11	30		35	BG11_7G11.V9_BG11_01_392.mzXML				1256		1456	9	male	BG11	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65

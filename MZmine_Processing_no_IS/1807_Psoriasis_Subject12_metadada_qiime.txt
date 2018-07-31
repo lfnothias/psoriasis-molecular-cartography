@@ -1,0 +1,10 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V12-leg-healthy-BH8	30		20	BH8_7H8.V12_BH8_01_474.mzXML				566		2860	12	female	BH8	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH9	30		20	BH9_7H9.V12_BH9_01_397.mzXML				626		2940	12	female	BH9	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH7	30		20	BH7_7H7.V12_BH7_01_466.mzXML				516		2854	12	female	BH7	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH10	30		20	BH10_7H10.V12_BH10_01_461.mzXML				722		2884	12	female	BH10	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-psoriasis-BA11	30		20	BA11_7A11.V12_BA11_01_396.mzXML				660		2868	12	female	BA11	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V12-leg-psoriasis-BA12	30		20	BA12_7A12.V12_BA12_01_407.mzXML				604		2888	12	female	BA12	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V12-leg-psoriasis-BB11	30		20	BB11_7B11.V12_BB11_01_394.mzXML				630		2850	12	female	BB11	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V12-leg-healthy-BH11	30		20	BH11_7H11.V12_BH11_01_378.mzXML				786		2892	12	female	BH11	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH12	30		20	BH12_7H12.V12_BH12_01_471.mzXML				642		2804	12	female	BH12	Maxis	healthy	healthy	leg	left	3-P1	3	40

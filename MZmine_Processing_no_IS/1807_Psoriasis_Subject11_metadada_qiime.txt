@@ -1,0 +1,16 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V11-arm-healthy-BF3	30		35	BF3_7F3.V11_BF3_01_480.mzXML				1138		2094	11	male	BF3	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BH1	30		35	BH1_7H1.V11_BH1_01_400.mzXML				976		1990	11	male	BH1	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V11-arm-healthy-BF4	30		35	BF4_7F4.V11_BF4_01_443.mzXML				1252		2150	11	male	BF4	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BH2	30		35	BH2_7H2.V11_BH2_01_421.mzXML				1014		1862	11	male	BH2	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V11-arm-healthy-BF5	30		35	BF5_7F5.V11_BF5_01_459.mzXML				1326		2080	11	male	BF5	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BH3	30		35	BH3_7H3.V11_BH3_01_442.mzXML				842		1822	11	male	BH3	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V11-arm-psoriasis-BF11	30		35	BF11_7F11.V11_BF11_01_479.mzXML				1254		1788	11	male	BF11	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V11-arm-healthy-BF6	30		35	BF6_7F6.V11_BF6_01_422.mzXML				1352		1950	11	male	BF6	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-psoriasis-BH5	30		35	BH5_7H5.V11_BH5_01_387.mzXML				922		1840	11	male	BH5	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	50
+V11-arm-healthy-BH4	30		35	BH4_7H4.V11_BH4_01_404.mzXML				802		1942	11	male	BH4	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V11-arm-healthy-BF8	30		35	BF8_7F8.V11_BF8_01_384.mzXML				1140		1972	11	male	BF8	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-psoriasis-BF9	30		35	BF9_7F9.V11_BF9_01_423.mzXML				1228		2002	11	male	BF9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V11-arm-psoriasis-BF10	30		35	BF10_7F10.V11_BF10_01_408.mzXML				1254		1924	11	male	BF10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V11-arm-healthy-BF7	30		35	BF7_7F7.V11_BF7_01_419.mzXML				1180		1862	11	male	BF7	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BF12	30		35	BF12_7F12.V11_BF12_01_376.mzXML				870		2018	11	male	BF12	Maxis	healthy	healthy	arm	left	3-P1	3	50

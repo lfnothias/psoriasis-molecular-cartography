@@ -1,0 +1,17 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V8-arm-healthy-BD3	30		35	BD3_7D3.V8_BD3_01_391.mzXML				852		964	8	female	BD3	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE3	30		35	BE3_7E3.V8_BE3_01_385.mzXML				852		638	8	female	BE3	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-healthy-BD4	30		35	BD4_7D4.V8_BD4_01_429.mzXML				854		1118	8	female	BD4	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE4	30		35	BE4_7E4.V8_BE4_01_444.mzXML				852		812	8	female	BE4	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-healthy-BE5	30		35	BE5_7E5.V8_BE5_01_450.mzXML				1086		844	8	female	BE5	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-healthy-BD6	30		35	BD6_7D6.V8_BD6_01_381.mzXML				1308		1118	8	female	BD6	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE7	30		35	BE7_7E7.V8_BE7_01_460.mzXML				1308		638	8	female	BE7	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-healthy-BD5	30		35	BD5_7D5.V8_BD5_01_393.mzXML				1086		1170	8	female	BD5	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BD8	30		35	BD8_7D8.V8_BD8_01_409.mzXML				1086		922	8	female	BD8	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE8	30		35	BE8_7E8.V8_BE8_01_467.mzXML				1146		608	8	female	BE8	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-psoriasis-BE10	30		20	BE10_7E10.V8_BE10_01_390.mzXML				1150		724	8	female	BE10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	55
+V8-arm-psoriasis-BE9	30		35	BE9_7E9.V8_BE9_01_473.mzXML				1098		688	8	female	BE9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	55
+V8-arm-healthy-BD7	30		35	BD7_7D7.V8_BD7_01_438.mzXML				1308		964	8	female	BD7	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE6	30		35	BE6_7E6.V8_BE6_01_425.mzXML				1308		812	8	female	BE6	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-psoriasis-BD10	30		35	BD10_7D10.V8_BD10_01_399.mzXML				1094		1040	8	female	BD10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	55
+V8-arm-psoriasis-BD9	30		35	BD9_7D9.V8_BD9_01_430.mzXML				1176		1040	8	female	BD9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	55

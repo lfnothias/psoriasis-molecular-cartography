@@ -1,0 +1,26 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V18-leg-psoriasis-GD6	30		20	GD6_V18_S6-018_leg_psoriasis_GD6_01_14502.mzXML				2001		1276	18	male	GD6	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-healthy-GC2	30		20	GC2_V18_S6-002_leg_healthy_GC2_01_14489.mzXML				1795		1232	18	male	GC2	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GD9	30		20	GD9_V18_S6-021_leg_healthy_GD9_01_14453.mzXML				2029		1173	18	male	GD9	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC5	30		20	GC5_V18_S6-005_leg_healthy_GC5_01_14487.mzXML				1811		1407	18	male	GC5	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD7	30		20	GD7_V18_S6-019_leg_psoriasis_GD7_01_14464.mzXML				2001		1334	18	male	GD7	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GC12	30		20	GC12_V18_S6-012_leg_psoriasis_GC12_01_14462.mzXML				1932		1220	18	male	GC12	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-healthy-GD12	30		20	GD12_V18_S6-024_leg_healthy_GD12_01_14402.mzXML				2059		1328	18	male	GD12	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC3	30		20	GC3_V18_S6-003_leg_healthy_GC3_01_14420.mzXML				1801		1303	18	male	GC3	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-psoriasis-GC9	30		20	GC9_V18_S6-009_leg_psoriasis_GC9_01_14386.mzXML				1877		1353	18	male	GC9	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GC8	30		20	GC8_V18_S6-008_leg_psoriasis_GC8_01_14392.mzXML				1875		1292	18	male	GC8	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-healthy-GD8	30		20	GD8_V18_S6-020_leg_healthy_GD8_01_14395.mzXML				1996		1386	18	male	GD8	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GD4	30		20	GD4_V18_S6-016_leg_healthy_GD4_01_14397.mzXML				1972		1176	18	male	GD4	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC10	30		20	GC10_V18_S6-010_leg_healthy_GC10_01_14370.mzXML				1877		1399	18	male	GC10	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GE1	30		20	GE1_V18_S6-025_leg_healthy_GE1_01_14376.mzXML				2053		1377	18	male	GE1	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC1	30		20	GC1_V18_S6-001_leg_healthy_GC1_01_14381.mzXML				1790		1186	18	male	GC1	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD5	30		20	GD5_V18_S6-017_leg_psoriasis_GD5_01_14371.mzXML				1991		1217	18	male	GD5	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GC7	30		20	GC7_V18_S6-007_leg_psoriasis_GC7_01_14382.mzXML				1864		1227	18	male	GC7	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-healthy-GC6	30		20	GC6_V18_S6-006_leg_healthy_GC6_01_14356.mzXML				1855		1184	18	male	GC6	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC4	30		20	GC4_V18_S6-004_leg_healthy_GC4_01_14363.mzXML				1807		1360	18	male	GC4	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC11	30		20	GC11_V18_S6-011_leg_healthy_GC11_01_14346.mzXML				1918		1180	18	male	GC11	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD1	30		20	GD1_V18_S6-013_leg_psoriasis_GD1_01_14341.mzXML				1940		1280	18	male	GD1	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD2	30		20	GD2_V18_S6-014_leg_psoriasis_GD2_01_14336.mzXML				1941		1343	18	male	GD2	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD10	30		20	GD10_V18_S6-022_leg_psoriasis_GD10_01_14320.mzXML				2048		1213	18	male	GD10	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD11	30		20	GD11_V18_S6-023_leg_psoriasis_GD11_01_14322.mzXML				2060		1270	18	male	GD11	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-healthy-GD3	30		20	GD3_V18_S6-015_leg_healthy_GD3_01_14323.mzXML				1939		1394	18	male	GD3	Maxis	healthy	healthy	leg	left	4-P2	4	35

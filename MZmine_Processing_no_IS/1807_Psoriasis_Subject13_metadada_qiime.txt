@@ -1,0 +1,26 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V13-leg-psoriasis-BB3	30		20	BB3_V13_S1-015_leg_psoriasis_BB3_01_14497.mzXML				1926		2501	13	female	BB3	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BA2	30		20	BA2_V13_S1-002_leg_healthy_BA2_01_14504.mzXML				1804		2347	13	female	BA2	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA9	30		20	BA9_V13_S1-009_leg_psoriasis_BA9_01_14510.mzXML				1871		2465	13	female	BA9	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA12	30		20	BA12_V13_S1-012_leg_psoriasis_BA12_01_14503.mzXML				1928		2349	13	female	BA12	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB2	30		20	BB2_V13_S1-014_leg_psoriasis_BB2_01_14475.mzXML				1927		2465	13	female	BB2	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA8	30		20	BA8_V13_S1-008_leg_psoriasis_BA8_01_14456.mzXML				1868		2412	13	female	BA8	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA7	30		20	BA7_V13_S1-007_leg_psoriasis_BA7_01_14486.mzXML				1867		2352	13	female	BA7	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB7	30		20	BB7_V13_S1-019_leg_psoriasis_BB7_01_14479.mzXML				1986		2464	13	female	BB7	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA10	30		20	BA10_V13_S1-010_leg_psoriasis_BA10_01_14471.mzXML				1873		2505	13	female	BA10	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BA1	30		20	BA1_V13_S1-001_leg_healthy_BA1_01_14425.mzXML				1805		2288	13	female	BA1	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-healthy-BB9	30		20	BB9_V13_S1-021_leg_healthy_BB9_01_14417.mzXML				2051		2295	13	female	BB9	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA6	30		20	BA6_V13_S1-006_leg_psoriasis_BA6_01_14416.mzXML				1868		2291	13	female	BA6	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB12	30		20	BB12_V13_S1-024_leg_psoriasis_BB12_01_14454.mzXML				2046		2465	13	female	BB12	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BC1	30		20	BC1_V13_S1-025_leg_healthy_BC1_01_14421.mzXML				2036		2504	13	female	BC1	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB4	30		20	BB4_V13_S1-016_leg_psoriasis_BB4_01_14429.mzXML				1990		2291	13	female	BB4	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BB8	30		20	BB8_V13_S1-020_leg_healthy_BB8_01_14436.mzXML				1982		2503	13	female	BB8	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB6	30		20	BB6_V13_S1-018_leg_psoriasis_BB6_01_14439.mzXML				1989		2412	13	female	BB6	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA5	30		20	BA5_V13_S1-005_leg_psoriasis_BA5_01_14369.mzXML				1816		2505	13	female	BA5	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB5	30		20	BB5_V13_S1-017_leg_psoriasis_BB5_01_14391.mzXML				1989		2350	13	female	BB5	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB1	30		20	BB1_V13_S1-013_leg_psoriasis_BB1_01_14387.mzXML				1928		2410	13	female	BB1	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA11	30		20	BA11_V13_S1-011_leg_psoriasis_BA11_01_14365.mzXML				1927		2287	13	female	BA11	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BA4	30		20	BA4_V13_S1-004_leg_healthy_BA4_01_14393.mzXML				1811		2465	13	female	BA4	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB10	30		20	BB10_V13_S1-022_leg_psoriasis_BB10_01_14355.mzXML				2051		2351	13	female	BB10	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA3	30		20	BA3_V13_S1-003_leg_psoriasis_BA3_01_14361.mzXML				1807		2412	13	female	BA3	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB11	30		20	BB11_V13_S1-023_leg_psoriasis_BB11_01_14345.mzXML				2050		2412	13	female	BB11	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47

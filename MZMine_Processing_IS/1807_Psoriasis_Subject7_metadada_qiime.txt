@@ -1,0 +1,17 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V7-arm-healthy-BA7	30		20	BA7_7A7.V7_BA7_01_454.mzXML				784		2358	7	female	BA7	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BB3	30		20	BB3_7B3.V7_BB3_01_452.mzXML				564		2580	7	female	BB3	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-healthy-BB7	30		20	BB7_7B7.V7_BB7_01_416.mzXML				802		2640	7	female	BB7	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-healthy-BB6	30		20	BB6_7B6.V7_BB6_01_468.mzXML				692		2708	7	female	BB6	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-psoriasis-BB9	30		20	BB9_7B9.V7_BB9_01_477.mzXML				670		2628	7	female	BB9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	70
+V7-arm-healthy-BA5	30		20	BA5_7A5.V7_BA5_01_476.mzXML				716		2488	7	female	BA5	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BA3	30		20	BA3_7A3.V7_BA3_01_420.mzXML				604		2358	7	female	BA3	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BA4	30		20	BA4_7A4.V7_BA4_01_451.mzXML				604		2464	7	female	BA4	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BB4	30		20	BB4_7B4.V7_BB4_01_475.mzXML				564		2698	7	female	BB4	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-healthy-BA6	30		20	BA6_7A6.V7_BA6_01_439.mzXML				802		2422	7	female	BA6	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BA8	30		20	BA8_7A8.V7_BA8_01_448.mzXML				708		2352	7	female	BA8	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BB8	30		20	BB8_7B8.V7_BB8_01_382.mzXML				692		2542	7	female	BB8	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-psoriasis-BB10	30		20	BB10_7B10.V7_BB10_01_389.mzXML				716		2626	7	female	BB10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	70
+V7-arm-psoriasis-BA10	30		20	BA10_7A10.V7_BA10_01_455.mzXML				738		2418	7	female	BA10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	70
+V7-arm-psoriasis-BA9	30		20	BA9_7A9.V7_BA9_01_432.mzXML				700		2412	7	female	BA9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	70
+V7-arm-healthy-BB12	30		20	BB12_7B12.V7.Empty_BB12_01_373.mzXML				896		2657	7	female	BB12	Maxis	healthy	healthy	arm	right	3-P1	3	70

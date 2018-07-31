@@ -1,0 +1,18 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V4-forehead-healthy-3A6	30	1	30	P3_3A6v4_Healthy_BA6_01_24311.mzXML	46.021095		49.219433	108	41.096281	2548	4	male	3A6	Maxis	healthy	healthy	forehead	middle	2-P3	2	30
+V4-temple-psoriasis-3A9	30	1	30	P3_3A9v4_Psoriasis_BA9_01_24344.mzXML	37.553579		53.172065	202	35.638804	2856	4	male	3A9	Maxis	psoriasis	psoriasis	temple	left	2-P3	2	30
+V4-forehead-healthy-3A7	30	1	30	P3_3A7v4_Healthy_BA7_01_24339.mzXML	45.072377		50.441024	108	40.858217	2588	4	male	3A7	Maxis	healthy	healthy	forehead	middle	2-P3	2	30
+V4-temple-healthy-3B3	30	1	30	P3_3B3v4_Healthy_BB3_01_24312.mzXML	48.311524		36.956289	358	33.597206	2392	4	male	3B3	Maxis	healthy	healthy	temple	right	2-P3	2	30
+V4-temple-psoriasis-3B2	30	1	30	P3_3B2v4_Psoriasis_BB2_01_24323.mzXML	47.995858		39.174996	198	35.484971	2392	4	male	3B2	Maxis	psoriasis	psoriasis	temple	right	2-P3	2	30
+V4-temple-healthy-3B4	30	1	30	P3_3B4v4_Healthy_BB4_01_24340.mzXML	45.675282		36.133833	88	34.21136	2392	4	male	3B4	Maxis	healthy	healthy	temple	right	2-P3	2	30
+V4-abdomen-healthy-3B7	30		30	P3_3B7v4_Healthy_BB7_01_24310.mzXML				304		2714	4	male	3B7	Maxis	healthy	healthy	abdomen	right	2-P3	2	30
+V4-behind-ear-healthy-3A12	30	1	30	P3_3A12v4_Healthy_BA12_01_24346.mzXML	41.1236		55.084	356	30.4387	2792	4	male	3A12	Maxis	healthy	healthy	behind_ear	left	2-P3	2	30
+V4-eyebrow-psoriasis-3A3	30	1	30	P3_3A3v4_Psoriasis_BA3_01_24325.mzXML	44.402929		48.214125	164	42.167019	2548	4	male	3A3	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V4-eyebrow-psoriasis-3A4	30	1	30	P3_3A4v4_Psoriasis_Rerun_BA4_01_24345.mzXML	43.522657		49.428097	164	42.024954	2590	4	male	3A4	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V4-temple-psoriasis-3A10	30	1	30	P3_3A10v4_Psoriasis_BA10_01_24343.mzXML	36.087938		53.368054	310	33.573796	2916	4	male	3A10	Maxis	psoriasis	psoriasis	temple	left	2-P3	2	30
+V4-abdomen-psoriasis-3B5	30		30	P3_3B5v4_Psoriasis_BB5_01_24324.mzXML				304		2640	4	male	3B5	Maxis	psoriasis	psoriasis	abdomen	right	2-P3	2	30
+V4-temple-healthy-3A11	30	1	30	P3_3A11v4_Healthy_BA11_01_24318.mzXML	42.531776		55.948027	84	33.134358	2904	4	male	3A11	Maxis	healthy	healthy	temple	left	2-P3	2	30
+V4-eyebrow-healthy-3A8	30	1	30	P3_3A8v4_Healthy_BA8_01_24317.mzXML	43.89805		51.700812	130	40.600521	2662	4	male	3A8	Maxis	healthy	healthy	eyebrow	left	2-P3	2	30
+V4-eyebrow-psoriasis-3A5	30	1	30	P3_3A5v4_Psoriasis_BA5_01_24329.mzXML	42.500835		50.561013	151	41.67947	2612	4	male	3A5	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V4-abdomen-healthy-3B6	30		30	P3_3B6v4_Healthy_BB6_01_24309.mzXML				304		2564	4	male	3B6	Maxis	healthy	healthy	abdomen	right	2-P3	2	30
+V4-temple-psoriasis-3B1	30	1	30	P3_3B1v4_Psoriasis_BB1_01_24322.mzXML	46.089262		37.615437	252	36.176093	2392	4	male	3B1	Maxis	psoriasis	psoriasis	temple	right	2-P3	2	30

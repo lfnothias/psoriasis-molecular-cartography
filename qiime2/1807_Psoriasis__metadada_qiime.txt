@@ -1,0 +1,485 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V2-arm-psoriasis-2C7	30	0.01	15	P2_2C7v2_Psoriasis_GC7_01_24384.mzXML	0.145897		0.567189	279	0.435164	1287	2	male	2C7	Maxis	psoriasis	psoriasis	arm	right	2-P2	2	50
+V5-leg-psoriasis-4B8	30		20	P4_4B8v5_Psoriasis_GB8_01_24282.mzXML				1299		436.5	5	male	4B8	Maxis	psoriasis	psoriasis	leg	left	2-P4	2	28
+V5-leg-psoriasis-4B9	30		20	P4_4B9v5_Psoriasis_GB9_01_24283.mzXML				1360		424	5	male	4B9	Maxis	psoriasis	psoriasis	leg	left	2-P4	2	28
+V2-arm-healthy-2A11	30	0.01	15	P2_2A11v2_Healthy_GA11_01_24357.mzXML	0.143367		0.541894	216	0.41098	1371	2	male	2A11	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V4-forehead-healthy-3A6	30	1	30	P3_3A6v4_Healthy_BA6_01_24311.mzXML	46.021095		49.219433	108	41.096281	2548	4	male	3A6	Maxis	healthy	healthy	forehead	middle	2-P3	2	30
+V3-lower-leg-psoriasis-2E10	30	0.01	15	P2_2E10v3_Psoriasis_GE10_01_24427.mzXML	1.007547		1.31635	409	1.686921	1680	3	male	2E10	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V7-arm-healthy-BA7	30		20	BA7_7A7.V7_BA7_01_454.mzXML				784		2358	7	female	BA7	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V10-arm-healthy-BC3	30		20	BC3_7C3.V10_BC3_01_464.mzXML				996		2414	10	female	BC3	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V7-arm-healthy-BB3	30		20	BB3_7B3.V7_BB3_01_452.mzXML				564		2580	7	female	BB3	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V5-leg-psoriasis-4A6	30		20	P4_4A6v5_Psoriasis_GA6_01_24273.mzXML				1129		145	5	male	4A6	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V8-arm-healthy-BD3	30		35	BD3_7D3.V8_BD3_01_391.mzXML				852		964	8	female	BD3	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE3	30		35	BE3_7E3.V8_BE3_01_385.mzXML				852		638	8	female	BE3	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V11-arm-healthy-BF3	30		35	BF3_7F3.V11_BF3_01_480.mzXML				1138		2094	11	male	BF3	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V9-arm-healthy-BG3	30		35	BG3_7G3.V9_BG3_01_388.mzXML				920		1380	9	male	BG3	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V7-arm-healthy-BB7	30		20	BB7_7B7.V7_BB7_01_416.mzXML				802		2640	7	female	BB7	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-healthy-BB6	30		20	BB6_7B6.V7_BB6_01_468.mzXML				692		2708	7	female	BB6	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V7-arm-psoriasis-BB9	30		20	BB9_7B9.V7_BB9_01_477.mzXML				670		2628	7	female	BB9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	70
+V7-arm-healthy-BA5	30		20	BA5_7A5.V7_BA5_01_476.mzXML				716		2488	7	female	BA5	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BA3	30		20	BA3_7A3.V7_BA3_01_420.mzXML				604		2358	7	female	BA3	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V7-arm-healthy-BA4	30		20	BA4_7A4.V7_BA4_01_451.mzXML				604		2464	7	female	BA4	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V11-arm-healthy-BH1	30		35	BH1_7H1.V11_BH1_01_400.mzXML				976		1990	11	male	BH1	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V9-arm-healthy-BG5	30		35	BG5_7G5.V9_BG5_01_386.mzXML				1146		1620	9	male	BG5	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V8-arm-healthy-BD4	30		35	BD4_7D4.V8_BD4_01_429.mzXML				854		1118	8	female	BD4	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BE4	30		35	BE4_7E4.V8_BE4_01_444.mzXML				852		812	8	female	BE4	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V7-arm-healthy-BB4	30		20	BB4_7B4.V7_BB4_01_475.mzXML				564		2698	7	female	BB4	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V11-arm-healthy-BF4	30		35	BF4_7F4.V11_BF4_01_443.mzXML				1252		2150	11	male	BF4	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BH2	30		35	BH2_7H2.V11_BH2_01_421.mzXML				1014		1862	11	male	BH2	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V8-arm-healthy-BE5	30		35	BE5_7E5.V8_BE5_01_450.mzXML				1086		844	8	female	BE5	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V7-arm-healthy-BA6	30		20	BA6_7A6.V7_BA6_01_439.mzXML				802		2422	7	female	BA6	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V8-arm-healthy-BD6	30		35	BD6_7D6.V8_BD6_01_381.mzXML				1308		1118	8	female	BD6	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V7-arm-healthy-BA8	30		20	BA8_7A8.V7_BA8_01_448.mzXML				708		2352	7	female	BA8	Maxis	healthy	healthy	arm	left	3-P1	3	70
+V11-arm-healthy-BF5	30		35	BF5_7F5.V11_BF5_01_459.mzXML				1326		2080	11	male	BF5	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-healthy-BH3	30		35	BH3_7H3.V11_BH3_01_442.mzXML				842		1822	11	male	BH3	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V9-arm-psoriasis-BG9	30		35	BG9_7G9.V9_BG9_01_446.mzXML				1042		1512	9	male	BG9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65
+V9-arm-healthy-BG6	30		35	BG6_7G6.V9_BG6_01_449.mzXML				1316		1558	9	male	BG6	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V9-arm-healthy-BG4	30		35	BG4_7G4.V9_BG4_01_440.mzXML				870		1580	9	male	BG4	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V8-arm-healthy-BE7	30		35	BE7_7E7.V8_BE7_01_460.mzXML				1308		638	8	female	BE7	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V8-arm-healthy-BD5	30		35	BD5_7D5.V8_BD5_01_393.mzXML				1086		1170	8	female	BD5	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V8-arm-healthy-BD8	30		35	BD8_7D8.V8_BD8_01_409.mzXML				1086		922	8	female	BD8	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V7-arm-healthy-BB8	30		20	BB8_7B8.V7_BB8_01_382.mzXML				692		2542	7	female	BB8	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V8-arm-healthy-BE8	30		35	BE8_7E8.V8_BE8_01_467.mzXML				1146		608	8	female	BE8	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V7-arm-psoriasis-BB10	30		20	BB10_7B10.V7_BB10_01_389.mzXML				716		2626	7	female	BB10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	70
+V8-arm-psoriasis-BE10	30		20	BE10_7E10.V8_BE10_01_390.mzXML				1150		724	8	female	BE10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	55
+V7-arm-psoriasis-BA10	30		20	BA10_7A10.V7_BA10_01_455.mzXML				738		2418	7	female	BA10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	70
+V8-arm-psoriasis-BE9	30		35	BE9_7E9.V8_BE9_01_473.mzXML				1098		688	8	female	BE9	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	55
+V9-arm-healthy-BG8	30		35	BG8_7G8.V9_BG8_01_395.mzXML				1100		1320	9	male	BG8	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V10-arm-healthy-BC6	30		20	BC6_7C6.V10_BC6_01_433.mzXML				1074		2370	10	female	BC6	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V10-back-healthy-BC9	30		20	BC9_7C9.V10_BC9_01_380.mzXML				1162		2846	10	female	BC9	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V8-arm-healthy-BD7	30		35	BD7_7D7.V8_BD7_01_438.mzXML				1308		964	8	female	BD7	Maxis	healthy	healthy	arm	left	3-P1	3	55
+V9-arm-psoriasis-BG10	30		35	BG10_7G10.V9_BG10_01_403.mzXML				1154		1482	9	male	BG10	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65
+V8-arm-healthy-BE6	30		35	BE6_7E6.V8_BE6_01_425.mzXML				1308		812	8	female	BE6	Maxis	healthy	healthy	arm	right	3-P1	3	55
+V10-arm-psoriasis-BC7	30		20	BC7_7C7.V10_BC7_01_472.mzXML				1068		2432	10	female	BC7	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	20
+V10-back-healthy-BC8	30		20	BC8_7C8.V10_BC8_01_417.mzXML				1036		2806	10	female	BC8	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-back-healthy-BE12	30		20	BE12_7E12.V10_BE12_01_469.mzXML				974		2718	10	female	BE12	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V8-arm-psoriasis-BD10	30		35	BD10_7D10.V8_BD10_01_399.mzXML				1094		1040	8	female	BD10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	55
+V12-leg-healthy-BH8	30		20	BH8_7H8.V12_BH8_01_474.mzXML				566		2860	12	female	BH8	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V9-arm-healthy-BG7	30		35	BG7_7G7.V9_BG7_01_406.mzXML				1276		1342	9	male	BG7	Maxis	healthy	healthy	arm	right	3-P1	3	65
+V10-arm-healthy-BC4	30		20	BC4_7C4.V10_BC4_01_428.mzXML				1066		2486	10	female	BC4	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V7-arm-psoriasis-BA9	30		20	BA9_7A9.V7_BA9_01_432.mzXML				700		2412	7	female	BA9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	70
+V11-arm-psoriasis-BF11	30		35	BF11_7F11.V11_BF11_01_479.mzXML				1254		1788	11	male	BF11	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V10-arm-healthy-BC5	30		20	BC5_7C5.V10_BC5_01_437.mzXML				1142		2442	10	female	BC5	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V11-arm-healthy-BF6	30		35	BF6_7F6.V11_BF6_01_422.mzXML				1352		1950	11	male	BF6	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V11-arm-psoriasis-BH5	30		35	BH5_7H5.V11_BH5_01_387.mzXML				922		1840	11	male	BH5	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	50
+V11-arm-healthy-BH4	30		35	BH4_7H4.V11_BH4_01_404.mzXML				802		1942	11	male	BH4	Maxis	healthy	healthy	arm	right	3-P1	3	50
+V8-arm-psoriasis-BD9	30		35	BD9_7D9.V8_BD9_01_430.mzXML				1176		1040	8	female	BD9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	55
+V12-leg-healthy-BH9	30		20	BH9_7H9.V12_BH9_01_397.mzXML				626		2940	12	female	BH9	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH7	30		20	BH7_7H7.V12_BH7_01_466.mzXML				516		2854	12	female	BH7	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V10-back-psoriasis-BD11	30		20	BD11_7D11.V10_BD11_01_401.mzXML				1010		2628	10	female	BD11	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V10-back-healthy-BC10	30		20	BC10_7C10.V10_BC10_01_377.mzXML				1146		2612	10	female	BC10	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V11-arm-healthy-BF8	30		35	BF8_7F8.V11_BF8_01_384.mzXML				1140		1972	11	male	BF8	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V9-arm-psoriasis-BG11	30		35	BG11_7G11.V9_BG11_01_392.mzXML				1256		1456	9	male	BG11	Maxis	psoriasis	psoriasis	arm	right	3-P1	3	65
+V11-arm-psoriasis-BF9	30		35	BF9_7F9.V11_BF9_01_423.mzXML				1228		2002	11	male	BF9	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V10-back-psoriasis-BD12	30		20	BD12_7D12.V10_BD12_01_379.mzXML				1042		2632	10	female	BD12	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V11-arm-psoriasis-BF10	30		35	BF10_7F10.V11_BF10_01_408.mzXML				1254		1924	11	male	BF10	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	50
+V10-back-healthy-BC11	30		20	BC11_7C11.V10_BC11_01_398.mzXML				1068		2548	10	female	BC11	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-back-psoriasis-BE11	30		20	BE11_7E11.V10_BE11_01_456.mzXML				1134		2776	10	female	BE11	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V12-leg-healthy-BH10	30		20	BH10_7H10.V12_BH10_01_461.mzXML				722		2884	12	female	BH10	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V10-back-healthy-BC12	30		20	BC12_7C12.V10_BC12_01_441.mzXML				972		2592	10	female	BC12	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V11-arm-healthy-BF7	30		35	BF7_7F7.V11_BF7_01_419.mzXML				1180		1862	11	male	BF7	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V12-leg-psoriasis-BA11	30		20	BA11_7A11.V12_BA11_01_396.mzXML				660		2868	12	female	BA11	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V11-arm-healthy-BF12	30		35	BF12_7F12.V11_BF12_01_376.mzXML				870		2018	11	male	BF12	Maxis	healthy	healthy	arm	left	3-P1	3	50
+V12-leg-psoriasis-BA12	30		20	BA12_7A12.V12_BA12_01_407.mzXML				604		2888	12	female	BA12	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V12-leg-psoriasis-BB11	30		20	BB11_7B11.V12_BB11_01_394.mzXML				630		2850	12	female	BB11	Maxis	psoriasis	psoriasis	leg	left	3-P1	3	40
+V12-leg-healthy-BH11	30		20	BH11_7H11.V12_BH11_01_378.mzXML				786		2892	12	female	BH11	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V12-leg-healthy-BH12	30		20	BH12_7H12.V12_BH12_01_471.mzXML				642		2804	12	female	BH12	Maxis	healthy	healthy	leg	left	3-P1	3	40
+V7-arm-healthy-BB12	30		20	BB12_7B12.V7.Empty_BB12_01_373.mzXML				896		2657	7	female	BB12	Maxis	healthy	healthy	arm	right	3-P1	3	70
+V2-arm-healthy-2B3	30	0.01	15	P2_2B3v2_Healthy_GB3_01_24361.mzXML	0.161337		0.526733	526.5	0.473654	1227	2	male	2B3	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V2-arm-healthy-2B12	30	0.01	15	P2_2B12v2_Healthy_GB12_01_24374.mzXML	0.147276		0.555564	108	0.39475	1380	2	male	2B12	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V20-arm-psoriasis-RB7	30		20	RB7_V20_S8-019_arm_psoriasis_RB7_01_14666.mzXML				2458		862	20	female	RB7	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V1-Right-elbow-healthy-A12				1A12_RA12_01_15828.mzXML							1	female	A12	Maxis	healthy	healthy	Right_elbow	right	1-P1	1	70
+V20-arm-healthy-RA3	30		20	RA3_V20_S8-003_arm_healthy_RA3_01_14672.mzXML				2342		690	20	female	RA3	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V20-arm-psoriasis-RB6	30		20	RB6_V20_S8-018_arm_psoriasis_RB6_01_14669.mzXML				2477		679	20	female	RB6	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V20-arm-healthy-RA1	30		20	RA1_V20_S8-001_arm_healthy_RA1_01_14671.mzXML				2343		586	20	female	RA1	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V19-leg-healthy-GG9	30		20	GG9_V19_S7-021_leg_healthy_GG9_01_14493.mzXML				2499		125	19	female	GG9	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V20-arm-healthy-RB4	30		20	RB4_V20_S8-016_arm_healthy_RB4_01_14663.mzXML				2477		600	20	female	RB4	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V14-arm-healthy-BD5	30		25	BD5_V14_S2-016_arm_healthy_BD5_01_14509.mzXML				2036		268	14	female	BD5	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V4-temple-psoriasis-3A9	30	1	30	P3_3A9v4_Psoriasis_BA9_01_24344.mzXML	37.553579		53.172065	202	35.638804	2856	4	male	3A9	Maxis	psoriasis	psoriasis	temple	left	2-P3	2	30
+V20-arm-healthy-RB8	30		20	RB8_V20_S8-020_arm_healthy_RB8_01_14638.mzXML				2453		911	20	female	RB8	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V21-hand-psoriasis-RF3	30		20	RF3_V21_S9-027_hand_psoriasis_RF3_01_14667.mzXML				2453		2842	21	male	RF3	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V22-back-psoriasis-BB10	30		20	BB10_V22_S10-022_back_psorias_BB10_01_14664.mzXML				2496		1187	22	female	BB10	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V2-arm-healthy-2B9	30	0.01	15	P2_2B9v2_Healthy_GB9_01_24371.mzXML	0.141097		0.556027	247.5	0.422049	1329	2	male	2B9	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V20-arm-psoriasis-RA6	30		20	RA6_V20_S8-006_arm_psoriasis_RA6_01_14629.mzXML				2393		592	20	female	RA6	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V19-leg-psoriasis-GF8	30		20	GF8_V19_S7-008_leg_psoriasis_GF8_01_14505.mzXML				2355		228	19	female	GF8	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V19-leg-psoriasis-GF9	30		20	GF9_V19_S7-009_leg_psoriasis_GF9_01_14498.mzXML				2357		344	19	female	GF9	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V20-arm-healthy-RB12	30		20	RB12_V20_S8-024_arm_healthy_RB12_01_14662.mzXML				2505		870	20	female	RB12	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V18-leg-psoriasis-GD6	30		20	GD6_V18_S6-018_leg_psoriasis_GD6_01_14502.mzXML				2001		1276	18	male	GD6	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V20-arm-psoriasis-RB2	30		20	RB2_V20_S8-014_arm_psoriasis_RB2_01_14654.mzXML				2408		860	20	female	RB2	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V16-back-psoriasis-BG9	30		20	BG9_V16_S4-010_back_psoriasis_BG9_01_14501.mzXML				1859		2893	16	male	BG9	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V19-leg-healthy-GH2	30		20	GH2_V19_S7-026_leg_healthy_GH2_01_14476.mzXML				2547		123	19	female	GH2	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V14-arm-healthy-BC4	30		25	BC4_V14_S2-003_arm_healthy_BC4_01_14507.mzXML				1794		218	14	female	BC4	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V18-leg-healthy-GC2	30		20	GC2_V18_S6-002_leg_healthy_GC2_01_14489.mzXML				1795		1232	18	male	GC2	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V20-arm-healthy-RA4	30		20	RA4_V20_S8-004_arm_healthy_RA4_01_14644.mzXML				2317		855	20	female	RA4	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V15-leg-psoriasis-BF3	30		20	BF3_V15_S3-022_leg_psoriasis_BF3_01_14506.mzXML				1984		606	15	male	BF3	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V17-leg-psoriasis-GA6	30		20	GA6_V17_S5-006_leg_psoriasis_GA6_01_14499.mzXML				1890		907	17	male	GA6	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V20-arm-healthy-RB3	30		20	RB3_V20_S8-015_arm_healthy_RB3_01_14634.mzXML				2403		907	20	female	RB3	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V15-leg-psoriasis-BD7	30		20	BD7_V15_S3-002_leg_psoriasis_BD7_01_14490.mzXML				1816		472	15	male	BD7	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V15-leg-psoriasis-BE4	30		20	BE4_V15_S3-011_leg_psoriasis_BE4_01_14492.mzXML				1858		631	15	male	BE4	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V13-leg-psoriasis-BB3	30		20	BB3_V13_S1-015_leg_psoriasis_BB3_01_14497.mzXML				1926		2501	13	female	BB3	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V16-back-healthy-BG3	30		20	BG3_V16_S4-004_back_healthy_BG3_01_14500.mzXML				1791		2822	16	male	BG3	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V20-arm-healthy-RA2	30		20	RA2_V20_S8-002_arm_healthy_RA2_01_14632.mzXML				2344		643	20	female	RA2	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V20-arm-psoriasis-RB10	30		20	RB10_V20_S8-022_arm_psoriasis_RB10_01_14625.mzXML				2516		633	20	female	RB10	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V20-arm-healthy-RC6	30		20	RC6_V20_S8-030_arm_healthy_RC6_01_14590.mzXML				2545		922	20	female	RC6	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V13-leg-healthy-BA2	30		20	BA2_V13_S1-002_leg_healthy_BA2_01_14504.mzXML				1804		2347	13	female	BA2	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA9	30		20	BA9_V13_S1-009_leg_psoriasis_BA9_01_14510.mzXML				1871		2465	13	female	BA9	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V21-hand-psoriasis-RF4	30		20	RF4_V21_S9-028_hand_psoriasis_RF4_01_14639.mzXML				2441		2884	21	male	RF4	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V19-leg-psoriasis-GG8	30		20	GG8_V19_S7-020_leg_psoriasis_GG8_01_14474.mzXML				2463		412	19	female	GG8	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V4-forehead-healthy-3A7	30	1	30	P3_3A7v4_Healthy_BA7_01_24339.mzXML	45.072377		50.441024	108	40.858217	2588	4	male	3A7	Maxis	healthy	healthy	forehead	middle	2-P3	2	30
+V16-back-healthy-BH8	30		20	BH8_V16_S4-021_back_healthy_BH8_01_14491.mzXML				2061		2624	16	male	BH8	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V1-Left-elbow-psoriasis-RB1	200		35	1B1_RB1_01_15819.mzXML				510		202	1	female	RB1	Maxis	psoriasis	psoriasis	Left_elbow	left	1-P1	1	70
+V13-leg-psoriasis-BA12	30		20	BA12_V13_S1-012_leg_psoriasis_BA12_01_14503.mzXML				1928		2349	13	female	BA12	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V19-leg-psoriasis-GG1	30		20	GG1_V19_S7-013_leg_psoriasis_GG1_01_14511.mzXML				2404		229	19	female	GG1	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V21-hand-psoriasis-RE9	30		20	RE9_V21_S9-021_hand_psoriasis_RE9_01_14659.mzXML				2394		2704	21	male	RE9	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V21-hand-healthy-RE6	30		20	RE6_V21_S9-018_hand_healthy_RE6_01_14658.mzXML				2318		2772	21	male	RE6	Maxis	healthy	healthy	hand	left	4-P3	4	55
+V19-leg-psoriasis-GH6	30		20	GH6_V19_S7-030_leg_psoriasis_GH6_01_14465.mzXML				2565		438	19	female	GH6	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V22-back-healthy-BB4	30		20	BB4_V22_S10-016_back_healthy_BB4_01_14656.mzXML				2441		1129	22	female	BB4	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V2-elbow-psoriasis-2B6	30	0.01	15	P2_2B6v2_Psoriasis_GB6_01_24389.mzXML	0.150314		0.548336	387	0.451999	1278	2	male	2B6	Maxis	psoriasis	psoriasis	elbow	right	2-P2	2	50
+V19-leg-psoriasis-partial-GF7	30		20	GF7_V19_S7-007_leg_healthy_GF7_01_14448.mzXML				2352		184	19	female	GF7	Maxis	psoriasis_partial	psoriasis	leg	right	4-P2	4	62
+V19-leg-healthy-GG4	30		20	GG4_V19_S7-016_leg_healthy_GG4_01_14481.mzXML				2450		127	19	female	GG4	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V22-back-healthy-BB3	30		20	BB3_V22_S10-015_back_healthy_BB3_01_14647.mzXML				2394		1340	22	female	BB3	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V21-hand-psoriasis-RE7	30		20	RE7_V21_S9-019_hand_psoriasis_RE7_01_14641.mzXML				2314		2826	21	male	RE7	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V21-arm-healthy-RD11	30		20	RD11_V21_S9-011_arm_healthy_RD11_01_14635.mzXML				2500		2477	21	male	RD11	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V20-arm-healthy-RB9	30		20	RB9_V20_S8-021_arm_healthy_RB9_01_14548.mzXML				2510		604	20	female	RB9	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V15-leg-psoriasis-BF10	30		20	BF10_V15_S3-029_leg_psoriasis_BF10_01_14488.mzXML				2025		644	15	male	BF10	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V21-hand-psoriasis-RF5	30		20	RF5_V21_S9-029_hand_psoriasis_RF5_01_14646.mzXML				2535		2712	21	male	RF5	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V20-arm-healthy-RC5	30		20	RC5_V20_S8-029_arm_healthy_RC5_01_14532.mzXML				2551		876	20	female	RC5	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V22-back-psoriasis-BB1	30		20	BB1_V22_S10-013_back_psoriasis_BB1_01_14660.mzXML				2388		1239	22	female	BB1	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V21-arm-psoriasis-RE1	30		20	RE1_V21_S9-013_arm_psoriasis_RE1_01_14631.mzXML				2583		2308	21	male	RE1	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V18-leg-healthy-GD9	30		20	GD9_V18_S6-021_leg_healthy_GD9_01_14453.mzXML				2029		1173	18	male	GD9	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V19-leg-psoriasis-GH4	30		20	GH4_V19_S7-028_leg_psoriasis_GH4_01_14485.mzXML				2553		221	19	female	GH4	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V20-arm-healthy-RC4	30		20	RC4_V20_S8-028_arm_healthy_RC4_01_14612.mzXML				2547		671	20	female	RC4	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V15-leg-psoriasis-BE10	30		20	BE10_V15_S3-017_leg_psoriasis_BE10_01_14455.mzXML				1914		641	15	male	BE10	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V20-arm-psoriasis-RA12	30		20	RA12_V20_S8-012_arm_psoriasis_RA12_01_14542.mzXML				2443		640	20	female	RA12	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V22-back-healthy-BA1	30		20	BA1_V22_S10-001_back_healthy_BA1_01_14640.mzXML				2303		1138	22	female	BA1	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V1-Left-elbow-Healthy-RD3	150	0.015	25	1D3_RD3_01_15864.mzXML	0.261981		0.340456	430	0.309584	545	1	female	RD3	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V22-back-healthy-BB8	30		20	BB8_V22_S10-020_back_healthy_BB8_01_14626.mzXML				2442		1346	22	female	BB8	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V19-leg-healthy-GF2	30		20	GF2_V19_S7-002_leg_healthy_GF2_01_14477.mzXML				2299		186	19	female	GF2	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V19-leg-healthy-GF11	30		20	GF11_V19_S7-011_leg_healthy_GF11_01_14433.mzXML				2398		130	19	female	GF11	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V13-leg-psoriasis-BB2	30		20	BB2_V13_S1-014_leg_psoriasis_BB2_01_14475.mzXML				1927		2465	13	female	BB2	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V21-arm-healthy-RE4	30		20	RE4_V21_S9-016_arm_healthy_RE4_01_14630.mzXML				2569		2547	21	male	RE4	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V16-back-healthy-BG10	30		20	BG10_V16_S4-011_back_healthy_BG10_01_14480.mzXML				1936		2615	16	male	BG10	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BG2	30		20	BG2_V16_S4-003_back_healthy_BG2_01_14484.mzXML				1792		2751	16	male	BG2	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V14-arm-healthy-BC9	30		25	BC9_V14_S2-008_arm_healthy_BC9_01_14470.mzXML				1888		282	14	female	BC9	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V18-leg-healthy-GC5	30		20	GC5_V18_S6-005_leg_healthy_GC5_01_14487.mzXML				1811		1407	18	male	GC5	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V13-leg-psoriasis-BA8	30		20	BA8_V13_S1-008_leg_psoriasis_BA8_01_14456.mzXML				1868		2412	13	female	BA8	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V22-back-psoriasis-BB5	30		20	BB5_V22_S10-017_back_psoriasis_BB5_01_14624.mzXML				2440		1187	22	female	BB5	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V22-back-psoriasis-BA8	30		20	BA8_V22_S10-008_back_psoriasis_BA8_01_14652.mzXML				2342		1237	22	female	BA8	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V15-leg-healthy-BD11	30		10	BD11_V15_S3-006_leg_healthy_BD11_01_14483.mzXML				1798		645	15	male	BD11	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V19-leg-psoriasis-GG12	30		20	GG12_V19_S7-024_leg_psoriasis_GG12_01_14445.mzXML				2512		377	19	female	GG12	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V20-arm-psoriasis-RA8	30		20	RA8_V20_S8-008_arm_psoriasis_RA8_01_14618.mzXML				2391		689	20	female	RA8	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V19-leg-psoriasis-partial-GF4	30		20	GF4_V19_S7-004_leg_psoriasis_GF4_01_14426.mzXML				2304		334	19	female	GF4	Maxis	psoriasis_partial	psoriasis	leg	right	4-P2	4	62
+V13-leg-psoriasis-BA7	30		20	BA7_V13_S1-007_leg_psoriasis_BA7_01_14486.mzXML				1867		2352	13	female	BA7	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V22-back-healthy-BA6	30		20	BA6_V22_S10-006_back_healthy_BA6_01_14633.mzXML				2342		1133	22	female	BA6	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V15-leg-psoriasis-BD8	30		20	BD8_V15_S3-003_leg_psoriasis_BD8_01_14478.mzXML				1807		526	15	male	BD8	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V20-arm-healthy-RB11	30		20	RB11_V20_S8-023_arm_healthy_RB11_01_14607.mzXML				2517		674	20	female	RB11	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V13-leg-psoriasis-BB7	30		20	BB7_V13_S1-019_leg_psoriasis_BB7_01_14479.mzXML				1986		2464	13	female	BB7	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V21-hand-healthy-RF1	30		20	RF1_V21_S9-025_hand_healthy_RF1_01_14623.mzXML				2467		2708	21	male	RF1	Maxis	healthy	healthy	hand	left	4-P3	4	55
+V1-Left-elbow-Healthy-RC11	150	0.015	25	1C11_RC11_01_15853.mzXML	0.281924		0.380225	150	0.237504	545	1	female	RC11	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V19-leg-psoriasis-GH1	30		20	GH1_V19_S7-025_leg_psoriasis_GH1_01_14405.mzXML				2511		425	19	female	GH1	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V17-leg-psoriasis-GA4	30		20	GA4_V17_S5-004_leg_psoriasis_GA4_01_14447.mzXML				1822		1040	17	male	GA4	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V20-arm-healthy-RA11	30		20	RA11_V20_S8-011_arm_healthy_RA11_01_14606.mzXML				2437		594	20	female	RA11	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V15-leg-healthy-BF7	30		20	BF7_V15_S3-026_leg_healthy_BF7_01_14467.mzXML				2060		494	15	male	BF7	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V21-hand-psoriasis-RF8	30		20	RF8_V21_S9-032_hand_psoriasis_RF8_01_14544.mzXML				2506		2898	21	male	RF8	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V5-forehead-psoriasis-4C6	30		20	P4_4C6v5_Psoriasis_GC6_01_24297.mzXML				880		247	5	male	4C6	Maxis	psoriasis	psoriasis	forehead	middle	2-P4	2	28
+V20-arm-psoriasis-RC2	30		20	RC2_V20_S8-026_arm_psoriasis_RC2_01_14598.mzXML				2535		607	20	female	RC2	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V15-leg-psoriasis-BE2	30		20	BE2_V15_S3-009_leg_psoriasis_BE2_01_14451.mzXML				1873		534	15	male	BE2	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V21-hand-psoriasis-RF2	30		20	RF2_V21_S9-026_hand_psoriasis_RF2_01_14546.mzXML				2461		2779	21	male	RF2	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V14-arm-healthy-BD1	30		25	BD1_V14_S2-012_arm_healthy_BD1_01_14403.mzXML				1960		274	14	female	BD1	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V14-arm-healthy-BC6	30		25	BC6_V14_S2-005_arm_healthy_BC6_01_14469.mzXML				1872		76	14	female	BC6	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V16-back-healthy-BH9	30		20	BH9_V16_S4-022_back_healthy_BH9_01_14452.mzXML				2061		2689	16	male	BH9	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V21-hand-healthy-RE12	30		20	RE12_V21_S9-024_hand_healthy_RE12_01_14643.mzXML				2378		2876	21	male	RE12	Maxis	healthy	healthy	hand	left	4-P3	4	55
+V22-back-psoriasis-BC3	30		20	BC3_V22_S10-027_back_psoriasis_BC3_01_14549.mzXML				2553		1188	22	female	BC3	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V22-back-healthy-BA2	30		20	BA2_V22_S10-002_back_healthy_BA2_01_14547.mzXML				2303		1189	22	female	BA2	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V13-leg-psoriasis-BA10	30		20	BA10_V13_S1-010_leg_psoriasis_BA10_01_14471.mzXML				1873		2505	13	female	BA10	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V19-leg-psoriasis-GG2	30		20	GG2_V19_S7-014_leg_psoriasis_GG2_01_14438.mzXML				2412		354	19	female	GG2	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V18-leg-psoriasis-GD7	30		20	GD7_V18_S6-019_leg_psoriasis_GD7_01_14464.mzXML				2001		1334	18	male	GD7	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V14-arm-healthy-BC5	30		25	BC5_V14_S2-004_arm_healthy_BC5_01_14444.mzXML				1806		282	14	female	BC5	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V17-leg-healthy-GA5	30		20	GA5_V17_S5-005_leg_healthy_GA5_01_14468.mzXML				1882		819	17	male	GA5	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V16-back-healthy-BH10	30		20	BH10_V16_S4-023_back_healthy_BH10_01_14450.mzXML				2060		2755	16	male	BH10	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V19-leg-psoriasis-GG10	30		20	GG10_V19_S7-022_leg_healthy_GG10_01_14431.mzXML				2504		177	19	female	GG10	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V3-lower-leg-healthy-2D7	30	0.01	15	P2_2D7v3_Healthy_GD7_01_24408.mzXML	1.046834		1.301194	253	1.73553	1610	3	male	2D7	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V4-temple-healthy-3B3	30	1	30	P3_3B3v4_Healthy_BB3_01_24312.mzXML	48.311524		36.956289	358	33.597206	2392	4	male	3B3	Maxis	healthy	healthy	temple	right	2-P3	2	30
+V13-leg-healthy-BA1	30		20	BA1_V13_S1-001_leg_healthy_BA1_01_14425.mzXML				1805		2288	13	female	BA1	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V19-leg-psoriasis-GF10	30		20	GF10_V19_S7-010_leg_psoriasis_GF10_01_14401.mzXML				2348		388	19	female	GF10	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V16-back-healthy-BG4	30		20	BG4_V16_S4-005_back_healthy_BG4_01_14463.mzXML				1787		2894	16	male	BG4	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V1-Left-elbow-Psoriasis-RD1	150	0.015	25	1D1_RD1_01_15862.mzXML	0.266679		0.358747	290	0.274366	545	1	female	RD1	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V17-leg-psoriasis-GA3	30		20	GA3_V17_S5-003_leg_psoriasis_GA3_01_14482.mzXML				1813		988	17	male	GA3	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V15-leg-healthy-BF6	30		20	BF6_V15_S3-025_leg_healthy_BF6_01_14428.mzXML				2053		448	15	male	BF6	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V13-leg-healthy-BB9	30		20	BB9_V13_S1-021_leg_healthy_BB9_01_14417.mzXML				2051		2295	13	female	BB9	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V16-back-psoriasis-BH7	30		20	BH7_V16_S4-020_back_psoriasis_BH7_01_14446.mzXML				1994		2891	16	male	BH7	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V21-arm-psoriasis-RD7	30		20	RD7_V21_S9-007_arm_psoriasis_RD7_01_14599.mzXML				2409		2474	21	male	RD7	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V21-arm-healthy-RD8	30		20	RD8_V21_S9-008_arm_healthy_RD8_01_14614.mzXML				2400		2547	21	male	RD8	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V1-Right-hairline-healthy-A7	200		35	1A7_RA7_01_15816.mzXML				148		810	1	female	A7	Maxis	healthy	healthy	Right_hairline	right	1-P1	1	70
+V18-leg-psoriasis-GC12	30		20	GC12_V18_S6-012_leg_psoriasis_GC12_01_14462.mzXML				1932		1220	18	male	GC12	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V17-leg-healthy-GA8	30		20	GA8_V17_S5-008_leg_healthy_GA8_01_14437.mzXML				1898		1036	17	male	GA8	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V21-hand-healthy-RE8	30		20	RE8_V21_S9-020_hand_healthy_RE8_01_14540.mzXML				2315		2860	21	male	RE8	Maxis	healthy	healthy	hand	left	4-P3	4	55
+V13-leg-psoriasis-BA6	30		20	BA6_V13_S1-006_leg_psoriasis_BA6_01_14416.mzXML				1868		2291	13	female	BA6	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V15-leg-psoriasis-BE9	30		20	BE9_V15_S3-016_leg_psoriasis_BE9_01_14415.mzXML				1925		601	15	male	BE9	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V15-leg-healthy-BE5	30		10	BE5_V15_S3-012_leg_healthy_BE5_01_14423.mzXML				1851		656	15	male	BE5	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V22-back-psoriasis-BB2	30		20	BB2_V22_S10-014_back_psoriasis_BB2_01_14622.mzXML				2389		1291	22	female	BB2	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V20-arm-healthy-RA10	30		20	RA10_V20_S8-010_arm_healthy_RA10_01_14581.mzXML				2355		908	20	female	RA10	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V13-leg-psoriasis-BB12	30		20	BB12_V13_S1-024_leg_psoriasis_BB12_01_14454.mzXML				2046		2465	13	female	BB12	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V21-hand-psoriasis-RF6	30		20	RF6_V21_S9-030_hand_psoriasis_RF6_01_14541.mzXML				2530		2784	21	male	RF6	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V20-arm-psoriasis-RC3	30		20	RC3_V20_S8-027_arm_psoriasis_RC3_01_14597.mzXML				2548		632	20	female	RC3	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V1-Left-elbow-Psoriasis-RD6	150	0.015	25	1D6_RD6_01_15865.mzXML	0.269402		0.373099	290	0.280793	485	1	female	RD6	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V13-leg-healthy-BC1	30		20	BC1_V13_S1-025_leg_healthy_BC1_01_14421.mzXML				2036		2504	13	female	BC1	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V22-back-healthy-BA5	30		20	BA5_V22_S10-005_back_healthy_BA5_01_14535.mzXML				2313		1332	22	female	BA5	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V16-back-psoriasis-BG12	30		20	BG12_V16_S4-013_back_psoriasis_BG12_01_14472.mzXML				1935		2753	16	male	BG12	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V19-leg-healthy-GF1	30		20	GF1_V19_S7-001_leg_healthy_GF1_01_14412.mzXML				2293		133	19	female	GF1	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V19-leg-psoriasis-GG5	30		20	GG5_V19_S7-017_leg_psoriasis_GG5_01_14430.mzXML				2453		182	19	female	GG5	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V13-leg-psoriasis-BB4	30		20	BB4_V13_S1-016_leg_psoriasis_BB4_01_14429.mzXML				1990		2291	13	female	BB4	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-healthy-BB8	30		20	BB8_V13_S1-020_leg_healthy_BB8_01_14436.mzXML				1982		2503	13	female	BB8	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V18-leg-healthy-GD12	30		20	GD12_V18_S6-024_leg_healthy_GD12_01_14402.mzXML				2059		1328	18	male	GD12	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GC3	30		20	GC3_V18_S6-003_leg_healthy_GC3_01_14420.mzXML				1801		1303	18	male	GC3	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V22-back-psoriasis-BA7	30		20	BA7_V22_S10-007_back_psoriasis_BA7_01_14536.mzXML				2343		1187	22	female	BA7	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V14-arm-healthy-BC3	30		25	BC3_V14_S2-002_arm_healthy_BC3_01_14434.mzXML				1800		152	14	female	BC3	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V16-back-psoriasis-BH1	30		20	BH1_V16_S4-014_back_psoriasis_BH1_01_14432.mzXML				1932		2820	16	male	BH1	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V14-arm-psoriasis-BC7	30		25	BC7_V14_S2-006_arm_psoriasis_BC7_01_14399.mzXML				1876		142	14	female	BC7	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V21-arm-healthy-RD4	30		20	RD4_V21_S9-004_arm_healthy_RD4_01_14596.mzXML				2305		2543	21	male	RD4	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V22-back-psoriasis-BC4	30		20	BC4_V22_S10-028_back_psoriasis_BC4_01_14613.mzXML				2551		1244	22	female	BC4	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V22-back-healthy-BC5	30		20	BC5_V22_S10-029_back_healthy_BC5_01_14621.mzXML				2549		1301	22	female	BC5	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V15-leg-psoriasis-BE3	30		20	BE3_V15_S3-010_leg_psoriasis_BE3_01_14443.mzXML				1864		592	15	male	BE3	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V14-arm-healthy-BD2	30		25	BD2_V14_S2-013_arm_healthy_BD2_01_14400.mzXML				2028		80	14	female	BD2	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V16-back-psoriasis-BG6	30		20	BG6_V16_S4-007_back_psoriasis_BG6_01_14435.mzXML				1867		2681	16	male	BG6	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V15-leg-psoriasis-BD9	30		20	BD9_V15_S3-004_leg_psoriasis_BD9_01_14404.mzXML				1800		582	15	male	BD9	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V22-back-healthy-BA11	30		20	BA11_V22_S10-011_back_healthy_BA11_01_14615.mzXML				2390		1131	22	female	BA11	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V15-leg-psoriasis-BF1	30		20	BF1_V15_S3-020_leg_psoriasis_BF1_01_14422.mzXML				2000		490	15	male	BF1	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V22-back-healthy-BC1	30		20	BC1_V22_S10-025_back_healthy_BC1_01_14600.mzXML				2496		1352	22	female	BC1	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V15-leg-psoriasis-BF9	30		20	BF9_V15_S3-028_leg_psoriasis_BF9_01_14442.mzXML				2045		607	15	male	BF9	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V22-back-psoriasis-BB11	30		20	BB11_V22_S10-023_back_psoriasi_BB11_01_14538.mzXML				2494		1242	22	female	BB11	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V16-back-healthy-BG1	30		20	BG1_V16_S4-002_back_healthy_BG1_01_14441.mzXML				1795		2682	16	male	BG1	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V19-leg-psoriasis-GG6	30		20	GG6_V19_S7-018_leg_psoriasis_GG6_01_14411.mzXML				2456		230	19	female	GG6	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V19-leg-psoriasis-GG7	30		20	GG7_V19_S7-019_leg_psoriasis_GG7_01_14414.mzXML				2464		368	19	female	GG7	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V20-arm-psoriasis-RB1	30		20	RB1_V20_S8-013_arm_psoriasis_RB1_01_14582.mzXML				2434		686	20	female	RB1	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V20-arm-psoriasis-RA7	30		20	RA7_V20_S8-007_arm_psoriasis_RA7_01_14577.mzXML				2396		643	20	female	RA7	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V16-back-healthy-BG5	30		20	BG5_V16_S4-006_back_healthy_BG5_01_14419.mzXML				1870		2612	16	male	BG5	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V15-leg-psoriasis-BF2	30		20	BF2_V15_S3-021_leg_psoriasis_BF2_01_14413.mzXML				1999		546	15	male	BF2	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V17-leg-healthy-GA2	30		20	GA2_V17_S5-002_leg_healthy_GA2_01_14424.mzXML				1805		914	17	male	GA2	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V16-back-healthy-BH11	30		20	BH11_V16_S4-024_back_healthy_BH11_01_14440.mzXML				2055		2822	16	male	BH11	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V22-back-healthy-BC2	30		20	BC2_V22_S10-026_back_healthy_BC2_01_14529.mzXML				2555		1130	22	female	BC2	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V13-leg-psoriasis-BB6	30		20	BB6_V13_S1-018_leg_psoriasis_BB6_01_14439.mzXML				1989		2412	13	female	BB6	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V21-hand-psoriasis-RE5	30		20	RE5_V21_S9-017_hand_psoriasis_RE5_01_14595.mzXML				2321		2701	21	male	RE5	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V21-arm-psoriasis-RD6	30		20	RD6_V21_S9-006_arm_psoriasis_RD6_01_14594.mzXML				2417		2384	21	male	RD6	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V21-arm-psoriasis-RD3	30		20	RD3_V21_S9-003_arm_psoriasis_RD3_01_14530.mzXML				2317		2464	21	male	RD3	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V20-arm-healthy-RC1	30		20	RC1_V20_S8-025_arm_healthy_RC1_01_14556.mzXML				2499		915	20	female	RC1	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V19-leg-psoriasis-partial-GF3	30		20	GF3_V19_S7-003_leg_psoriasis_GF3_01_14328.mzXML				2305		230	19	female	GF3	Maxis	psoriasis_partial	psoriasis	leg	right	4-P2	4	62
+V15-leg-psoriasis-BE7	30		20	BE7_V15_S3-014_leg_psoriasis_BE7_01_14394.mzXML				1939		487	15	male	BE7	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V16-back-psoriasis-BH2	30		20	BH2_V16_S4-015_back_psoriasis_BH2_01_14418.mzXML				1929		2893	16	male	BH2	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V20-arm-psoriasis-RA9	30		20	RA9_V20_S8-009_arm_psoriasis_RA9_01_14518.mzXML				2353		859	20	female	RA9	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V17-leg-healthy-GB4	30		20	GB4_V17_S5-016_leg_healthy_GB4_01_14389.mzXML				2051		1023	17	male	GB4	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V2-elbow-psoriasis-2B7	30	0.01	15	P2_2B7v2_Psoriasis_GB7_01_24390.mzXML	0.144087		0.55312	340.5	0.441986	1295	2	male	2B7	Maxis	psoriasis	psoriasis	elbow	right	2-P2	2	50
+V22-back-psoriasis-BB7	30		20	BB7_V22_S10-019_back_psoriasis_BB7_01_14528.mzXML				2439		1294	22	female	BB7	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V18-leg-psoriasis-GC9	30		20	GC9_V18_S6-009_leg_psoriasis_GC9_01_14386.mzXML				1877		1353	18	male	GC9	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V20-arm-healthy-RA5	30		20	RA5_V20_S8-005_arm_healthy_RA5_01_14563.mzXML				2302		903	20	female	RA5	Maxis	healthy	healthy	arm	right	4-P3	4	53
+V18-leg-psoriasis-GC8	30		20	GC8_V18_S6-008_leg_psoriasis_GC8_01_14392.mzXML				1875		1292	18	male	GC8	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V21-hand-psoriasis-RE10	30		20	RE10_V21_S9-022_hand_psoriasis_RE10_01_14584.mzXML				2390		2774	21	male	RE10	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V18-leg-healthy-GD8	30		20	GD8_V18_S6-020_leg_healthy_GD8_01_14395.mzXML				1996		1386	18	male	GD8	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V16-back-healthy-BH12	30		20	BH12_V16_S4-025_back_healthy_BH12_01_14396.mzXML				2052		2892	16	male	BH12	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V15-leg-healthy-BE12	30		20	BE12_V15_S3-019_leg_healthy_BE12_01_14372.mzXML				1997		449	15	male	BE12	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V18-leg-healthy-GD4	30		20	GD4_V18_S6-016_leg_healthy_GD4_01_14397.mzXML				1972		1176	18	male	GD4	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V16-back-psoriasis-BH5	30		20	BH5_V16_S4-018_back_psoriasis_BH5_01_14390.mzXML				2000		2754	16	male	BH5	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V13-leg-psoriasis-BA5	30		20	BA5_V13_S1-005_leg_psoriasis_BA5_01_14369.mzXML				1816		2505	13	female	BA5	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V18-leg-healthy-GC10	30		20	GC10_V18_S6-010_leg_healthy_GC10_01_14370.mzXML				1877		1399	18	male	GC10	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V18-leg-healthy-GE1	30		20	GE1_V18_S6-025_leg_healthy_GE1_01_14376.mzXML				2053		1377	18	male	GE1	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V21-hand-psoriasis-RF7	30		20	RF7_V21_S9-031_hand_psoriasis_RF7_01_14583.mzXML				2518		2850	21	male	RF7	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V13-leg-psoriasis-BB5	30		20	BB5_V13_S1-017_leg_psoriasis_BB5_01_14391.mzXML				1989		2350	13	female	BB5	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BB1	30		20	BB1_V13_S1-013_leg_psoriasis_BB1_01_14387.mzXML				1928		2410	13	female	BB1	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V13-leg-psoriasis-BA11	30		20	BA11_V13_S1-011_leg_psoriasis_BA11_01_14365.mzXML				1927		2287	13	female	BA11	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V20-arm-psoriasis-RB5	30		20	RB5_V20_S8-017_arm_psoriasis_RB5_01_14558.mzXML				2483		635	20	female	RB5	Maxis	psoriasis	psoriasis	arm	right	4-P3	4	53
+V18-leg-healthy-GC1	30		20	GC1_V18_S6-001_leg_healthy_GC1_01_14381.mzXML				1790		1186	18	male	GC1	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V21-hand-psoriasis-RF9	30		20	RF9_V21_S9-033_hand_psoriasis_RF9_01_14580.mzXML				2603		2719	21	male	RF9	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V15-leg-healthy-BF11	30		10	BF11_V15_S3-030_leg_healthy_BF11_01_14383.mzXML				2012		661	15	male	BF11	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V19-leg-psoriasis-GF12	30		20	GF12_V19_S7-012_leg_healthy_GF12_01_14379.mzXML				2401		181	19	female	GF12	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V21-arm-psoriasis-RD9	30		20	RD9_V21_S9-009_arm_psoriasis_RD9_01_14574.mzXML				2503		2304	21	male	RD9	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V15-leg-psoriasis-BE8	30		20	BE8_V15_S3-015_leg_psoriasis_BE8_01_14377.mzXML				1936		544	15	male	BE8	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V16-back-psoriasis-BG7	30		20	BG7_V16_S4-008_back_psoriasis_BG7_01_14380.mzXML				1865		2752	16	male	BG7	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V22-back-psoriasis-BB12	30		20	BB12_V22_S10-024_back_psorias_BB12_01_14585.mzXML				2491		1297	22	female	BB12	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V14-arm-psoriasis-BD4	30		25	BD4_V14_S2-015_arm_psoriasis_BD4_01_14378.mzXML				2042		214	14	female	BD4	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V16-back-healthy-BH3	30		20	BH3_V16_S4-016_back_healthy_BH3_01_14326.mzXML				2002		2619	16	male	BH3	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V21-arm-healthy-RD12	30		20	RD12_V21_S9-012_arm_healthy_RD12_01_14527.mzXML				2486		2550	21	male	RD12	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V17-leg-psoriasis-GB3	30		20	GB3_V17_S5-015_leg_psoriasis_GB3_01_14385.mzXML				2055		974	17	male	GB3	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V17-leg-healthy-GA1	30		20	GA1_V17_S5-001_leg_healthy_GA1_01_14384.mzXML				1802		825	17	male	GA1	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V17-leg-healthy-GA12	30		20	GA12_V17_S5-012_leg_healthy_GA12_01_14375.mzXML				1974		1030	17	male	GA12	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V15-leg-psoriasis-BE1	30		20	BE1_V15_S3-008_leg_psoriasis_BE1_01_14367.mzXML				1876		479	15	male	BE1	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V15-leg-healthy-BD12	30		20	BD12_V15_S3-007_leg_healthy_BD12_01_14374.mzXML				1878		437	15	male	BD12	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V13-leg-healthy-BA4	30		20	BA4_V13_S1-004_leg_healthy_BA4_01_14393.mzXML				1811		2465	13	female	BA4	Maxis	healthy	healthy	leg	left	4-P1	4	47
+V18-leg-psoriasis-GD5	30		20	GD5_V18_S6-017_leg_psoriasis_GD5_01_14371.mzXML				1991		1217	18	male	GD5	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V21-arm-healthy-RD1	30		20	RD1_V21_S9-001_arm_healthy_RD1_01_14570.mzXML				2322		2299	21	male	RD1	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V1-Right-hairline-psoriasis-A6	200		35	1A6_RA6_01_15834.mzXML				194		902	1	female	A6	Maxis	psoriasis	psoriasis	Right_hairline	right	1-P1	1	70
+V16-back-healthy-BF12	30		20	BF12_V16_S4-001_back_healthy_BF12_01_14373.mzXML				1797		2611	16	male	BF12	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V17-leg-psoriasis-GA7	30		20	GA7_V17_S5-007_leg_psoriasis_GA7_01_14362.mzXML				1896		981	17	male	GA7	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V14-arm-healthy-BC2	30		25	BC2_V14_S2-001_arm_healthy_BC2_01_14364.mzXML				1806		76	14	female	BC2	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V18-leg-psoriasis-GC7	30		20	GC7_V18_S6-007_leg_psoriasis_GC7_01_14382.mzXML				1864		1227	18	male	GC7	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V14-arm-psoriasis-BC8	30		25	BC8_V14_S2-007_arm_psoriasis_BC8_01_14366.mzXML				1880		222	14	female	BC8	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V1-Right-elbow-psoriasis-A10				1A10_RA10_01_15815.mzXML							1	female	A10	Maxis	psoriasis	psoriasis	Right_elbow	right	1-P1	1	70
+V21-arm-psoriasis-RE2	30		20	RE2_V21_S9-014_arm_psoriasis_RE2_01_14520.mzXML				2591		2388	21	male	RE2	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V22-back-healthy-BA10	30		20	BA10_V22_S10-010_back_healthy_BA10_01_14576.mzXML				2352		1336	22	female	BA10	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V17-leg-psoriasis-GA10	30		20	GA10_V17_S5-010_leg_psoriasis_GA10_01_14360.mzXML				1972		901	17	male	GA10	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V22-back-psoriasis-BA9	30		20	BA9_V22_S10-009_back_psoriasis_BA9_01_14575.mzXML				2345		1289	22	female	BA9	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V22-back-healthy-BA3	30		20	BA3_V22_S10-003_back_healthy_BA3_01_14567.mzXML				2302		1238	22	female	BA3	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V22-back-healthy-BB9	30		20	BB9_V22_S10-021_back_healthy_BB9_01_14516.mzXML				2495		1129	22	female	BB9	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V21-arm-psoriasis-RD10	30		20	RD10_V21_S9-010_arm_psoriasis_RD10_01_14517.mzXML				2509		2389	21	male	RD10	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V21-hand-psoriasis-RE11	30		20	RE11_V21_S9-023_hand_psoriasis_RE11_01_14522.mzXML				2385		2835	21	male	RE11	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V21-hand-psoriasis-RF10	30		20	RF10_V21_S9-034_hand_psoriasis_RF10_01_14515.mzXML				2600		2791	21	male	RF10	Maxis	psoriasis	psoriasis	hand	left	4-P3	4	55
+V1-Left-elbow-Healthy-RC6	150	0.015	25	1C6_RC6_01_15848.mzXML	0.2829		0.3652	150	0.2323	605	1	female	RC6	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V17-leg-psoriasis-GB2	30		20	GB2_V17_S5-014_leg_psoriasis_GB2_01_14352.mzXML				2051		899	17	male	GB2	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V15-leg-psoriasis-BF8	30		20	BF8_V15_S3-027_leg_psoriasis_BF8_01_14353.mzXML				2057		550	15	male	BF8	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V15-leg-healthy-BE6	30		20	BE6_V15_S3-013_leg_healthy_BE6_01_14351.mzXML				1939		447	15	male	BE6	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V22-back-psoriasis-BA12	30		20	BA12_V22_S10-012_back_psoriasis_BA12_01_14562.mzXML				2390		1187	22	female	BA12	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V13-leg-psoriasis-BB10	30		20	BB10_V13_S1-022_leg_psoriasis_BB10_01_14355.mzXML				2051		2351	13	female	BB10	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V18-leg-healthy-GC6	30		20	GC6_V18_S6-006_leg_healthy_GC6_01_14356.mzXML				1855		1184	18	male	GC6	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V3-lower-leg-healthy-2F3	30	0.01	15	P2_2F3v3_Healthy_GF3_01_24397.mzXML	1.046256		1.254459	149	1.753326	1680	3	male	2F3	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V22-back-healthy-BA4	30		20	BA4_V22_S10-004_back_healthy_BA4_01_14566.mzXML				2304		1284	22	female	BA4	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V15-leg-healthy-BD6	30		20	BD6_V15_S3-001_leg_healthy_BD6_01_14357.mzXML				1821		425	15	male	BD6	Maxis	healthy	healthy	leg	right	4-P1	4	59
+V18-leg-healthy-GC4	30		20	GC4_V18_S6-004_leg_healthy_GC4_01_14363.mzXML				1807		1360	18	male	GC4	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V22-back-healthy-BC6	30		20	BC6_V22_S10-030_back_healthy_BC6_01_14561.mzXML				2549		1354	22	female	BC6	Maxis	healthy	healthy	back	middle	4-P4	4	58
+V13-leg-psoriasis-BA3	30		20	BA3_V13_S1-003_leg_psoriasis_BA3_01_14361.mzXML				1807		2412	13	female	BA3	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V14-arm-healthy-BC10	30		25	BC10_V14_S2-009_arm_healthy_BC10_01_14327.mzXML				1964		86	14	female	BC10	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V15-leg-psoriasis-BF4	30		20	BF4_V15_S3-023_leg_psoriasis_BF4_01_14354.mzXML				1971		641	15	male	BF4	Maxis	psoriasis	psoriasis	leg	right	4-P1	4	40
+V21-arm-healthy-RD5	30		20	RD5_V21_S9-005_arm_healthy_RD5_01_14560.mzXML				2415		2296	21	male	RD5	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V13-leg-psoriasis-BB11	30		20	BB11_V13_S1-023_leg_psoriasis_BB11_01_14345.mzXML				2050		2412	13	female	BB11	Maxis	psoriasis	psoriasis	leg	left	4-P1	4	47
+V19-leg-psoriasis-GG11	30		20	GG11_V19_S7-023_leg_psoriasis_GG11_01_14343.mzXML				2502		224	19	female	GG11	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V18-leg-healthy-GC11	30		20	GC11_V18_S6-011_leg_healthy_GC11_01_14346.mzXML				1918		1180	18	male	GC11	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V19-leg-psoriasis-GG3	30		20	GG3_V19_S7-015_leg_psoriasis_GG3_01_14330.mzXML				2404		401	19	female	GG3	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V21-arm-healthy-RE3	30		20	RE3_V21_S9-015_arm_healthy_RE3_01_14554.mzXML				2582		2479	21	male	RE3	Maxis	healthy	healthy	arm	left	4-P3	4	55
+V21-arm-psoriasis-RD2	30		20	RD2_V21_S9-002_arm_psoriasis_RD2_01_14555.mzXML				2323		2371	21	male	RD2	Maxis	psoriasis	psoriasis	arm	left	4-P3	4	55
+V19-leg-healthy-GH3	30		20	GH3_V19_S7-027_leg_healthy_GH3_01_14333.mzXML				2552		173	19	female	GH3	Maxis	healthy	healthy	leg	right	4-P2	4	62
+V17-leg-psoriasis-GA11	30		20	GA11_V17_S5-011_leg_psoriasis_GA11_01_14347.mzXML				1976		977	17	male	GA11	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	74
+V15-leg-healthy-BF5	30		10	BF5_V15_S3-024_leg_healthy_BF5_01_14338.mzXML				1962		660	15	male	BF5	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V22-back-psoriasis-BB6	30		20	BB6_V22_S10-018_back_psoriasis_BB6_01_14557.mzXML				2439		1241	22	female	BB6	Maxis	psoriasis	psoriasis	back	middle	4-P4	4	58
+V17-leg-healthy-GB1	30		20	GB1_V17_S5-013_leg_healthy_GB1_01_14335.mzXML				2039		817	17	male	GB1	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V1-Left-elbow-Psoriasis-RD2	150	0.015	25	1D2_RD2_01_15863.mzXML	0.261656		0.349184	360	0.29094	545	1	female	RD2	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V14-arm-healthy-BD3	30		25	BD3_V14_S2-014_arm_healthy_BD3_01_14337.mzXML				2038		138	14	female	BD3	Maxis	healthy	healthy	arm	left	4-P1	4	59
+V1-Left-elbow-healthy-RB4	200		35	1B4_RB4_01_15830.mzXML				322		314	1	female	RB4	Maxis	healthy	healthy	Left_elbow	left	1-P1	1	70
+V15-leg-healthy-BE11	30		10	BE11_V15_S3-018_leg_healthy_BE11_01_14340.mzXML				1906		662	15	male	BE11	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V18-leg-psoriasis-GD1	30		20	GD1_V18_S6-013_leg_psoriasis_GD1_01_14341.mzXML				1940		1280	18	male	GD1	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V19-leg-psoriasis-GH5	30		20	GH5_V19_S7-029_leg_psoriasis_GH5_01_14329.mzXML				2564		387	19	female	GH5	Maxis	psoriasis	psoriasis	leg	right	4-P2	4	62
+V19-leg-psoriasis-partial-GF5	30		20	GF5_V19_S7-005_leg_psoriasis_GF5_01_14332.mzXML				2290		381	19	female	GF5	Maxis	psoriasis_partial	psoriasis	leg	right	4-P2	4	62
+V16-back-healthy-BH4	30		20	BH4_V16_S4-017_back_healthy_BH4_01_14339.mzXML				2001		2686	16	male	BH4	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V1-Left-elbow-Healthy-RC5	150	0.015	25	1C5_RC5_01_15847.mzXML	0.275566		0.3167	430	0.30191	675	1	female	RC5	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V18-leg-psoriasis-GD2	30		20	GD2_V18_S6-014_leg_psoriasis_GD2_01_14336.mzXML				1941		1343	18	male	GD2	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V14-arm-psoriasis-BC11	30		25	BC11_V14_S2-010_arm_psoriasis_BC11_01_14324.mzXML				1956		142	14	female	BC11	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V17-leg-healthy-GA9	30		20	GA9_V17_S5-009_leg_healthy_GA9_01_14331.mzXML				1964		816	17	male	GA9	Maxis	healthy	healthy	leg	left	4-P2	4	74
+V18-leg-psoriasis-GD10	30		20	GD10_V18_S6-022_leg_psoriasis_GD10_01_14320.mzXML				2048		1213	18	male	GD10	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V18-leg-psoriasis-GD11	30		20	GD11_V18_S6-023_leg_psoriasis_GD11_01_14322.mzXML				2060		1270	18	male	GD11	Maxis	psoriasis	psoriasis	leg	left	4-P2	4	35
+V16-back-psoriasis-BG8	30		20	BG8_V16_S4-009_back_psoriasis_BG8_01_14334.mzXML				1861		2822	16	male	BG8	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V18-leg-healthy-GD3	30		20	GD3_V18_S6-015_leg_healthy_GD3_01_14323.mzXML				1939		1394	18	male	GD3	Maxis	healthy	healthy	leg	left	4-P2	4	35
+V14-arm-psoriasis-BC12	30		25	BC12_V14_S2-011_arm_psoriasis_BC12_01_14321.mzXML				1960		218	14	female	BC12	Maxis	psoriasis	psoriasis	arm	left	4-P1	4	59
+V15-leg-healthy-BD10	30		20	BD10_V15_S3-005_leg_healthy_BD10_01_14325.mzXML				1798		623	15	male	BD10	Maxis	healthy	healthy	leg	right	4-P1	4	40
+V3-lower-leg-healthy-2D8	30	0.01	15	P2_2D8v3_Healthy_GD8_01_24409.mzXML	1.054395		1.288803	201	1.748434	1610	3	male	2D8	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V1-Mid-lower-back-psoriasis-RB5	200		35	1B5_RB5_01_15817.mzXML				554		904	1	female	RB5	Maxis	psoriasis	psoriasis	Mid_lower_back	na	1-P1	1	70
+V16-back-psoriasis-BG11	30		20	BG11_V16_S4-012_back_psoriasis_BG11_01_14318.mzXML				1936		2683	16	male	BG11	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V1-Left-elbow-Healthy-RD5	150	0.015	25	1D5_RD5_01_15857.mzXML	0.27785		0.383368	220	0.261843	485	1	female	RD5	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V16-back-psoriasis-BH6	30		20	BH6_V16_S4-019_back_psoriasis_BH6_01_14317.mzXML				1998		2822	16	male	BH6	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V1-Left-elbow-Healthy-RC2	150	0.015	25	1C2_RC2_01_15870.mzXML	0.282646		0.342164	220	0.247809	675	1	female	RC2	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V5-leg-psoriasis-4C1	30		20	P4_4C1v5_Psoriasis_GC1_01_24285.mzXML				1180		486	5	male	4C1	Maxis	psoriasis	psoriasis	leg	left	2-P4	2	28
+V2-arm-healthy-2B10	30	0.01	15	P2_2B10v2_Healthy_GB10_01_24372.mzXML	0.142251		0.555684	201	0.412784	1346	2	male	2B10	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V3-lower-leg-healthy-2E5	30	0.01	15	P2_2E5v3_Healthy_GE5_01_24414.mzXML	1.044385		1.277607	201	1.74491	1645	3	male	2E5	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V1-Left-elbow-Healthy-RD4	150	0.015	25	1D4_RD4_01_15856.mzXML	0.283828		0.392716	150	0.243682	485	1	female	RD4	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V5-leg-psoriasis-4A11	30		20	P4_4A11v5_Psoriasis_GA11_01_24277.mzXML				1347		120	5	male	4A11	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V1-Left-elbow-Psoriasis-RC12	150	0.015	25	1C12_RC12_01_15854.mzXML	0.275515		0.369536	220	0.255351	545	1	female	RC12	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V2-arm-healthy-2A5	30	0.01	15	P2_2A5v2_Healthy_GA5_01_24369.mzXML	0.152675		0.523075	495	0.460718	1269	2	male	2A5	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V1-Left-elbow-Healthy-RC1	150	0.015	25	1C1_RC1_01_15842.mzXML	0.289642		0.352236	150	0.228501	675	1	female	RC1	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Right-hairline-healthy-A8	200		35	1A8_RA8_01_15826.mzXML				110		866	1	female	A8	Maxis	healthy	healthy	Right_hairline	right	1-P1	1	70
+V2-elbow-psoriasis-2A9	30	0.01	15	P2_2A9v2_Psoriasis_GA9_01_24387.mzXML	0.142		0.541434	309	0.428551	1337	2	male	2A9	Maxis	psoriasis	psoriasis	elbow	left	2-P2	2	50
+V1-Left-elbow-Psoriasis-RD8	150	0.015	25	1D8_RD8_01_15867.mzXML	0.256537		0.354973	430	0.313114	485	1	female	RD8	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC4	150	0.015	25	1C4_RC4_01_15846.mzXML	0.275129		0.326751	360	0.282531	675	1	female	RC4	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V3-lower-leg-healthy-2E7	30	0.01	15	P2_2E7v3_Healthy_GE7_01_24416.mzXML	0.989637		1.354987	565	1.643359	1680	3	male	2E7	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V1-Mid-lower-back-psoriasis-RB6	200		35	1B6_RB6_01_15837.mzXML				540		952	1	female	RB6	Maxis	psoriasis	psoriasis	Mid_lower_back	na	1-P1	1	70
+V3-lower-leg-healthy-2F2	30	0.01	15	P2_2F2v3_Healthy_GF2_01_24396.mzXML	1.038745		1.267057	201	1.740625	1680	3	male	2F2	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V1-Left-elbow-Healthy-RC8	150	0.015	25	1C8_RC8_01_15850.mzXML	0.269954		0.345056	290	0.269625	605	1	female	RC8	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V4-temple-psoriasis-3B2	30	1	30	P3_3B2v4_Psoriasis_BB2_01_24323.mzXML	47.995858		39.174996	198	35.484971	2392	4	male	3B2	Maxis	psoriasis	psoriasis	temple	right	2-P3	2	30
+V2-arm-healthy-2C4	30	0.01	15	P2_2C4v2_Healthy_GC4_01_24379.mzXML	0.162739		0.549722	418.5	0.464216	1236	2	male	2C4	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V1-Left-elbow-Healthy-RC10	150	0.015	25	1C10_RC10_01_15852.mzXML	0.270574		0.327488	430	0.305995	605	1	female	RC10	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V4-temple-healthy-3B4	30	1	30	P3_3B4v4_Healthy_BB4_01_24340.mzXML	45.675282		36.133833	88	34.21136	2392	4	male	3B4	Maxis	healthy	healthy	temple	right	2-P3	2	30
+V4-abdomen-healthy-3B7	30		30	P3_3B7v4_Healthy_BB7_01_24310.mzXML				304		2714	4	male	3B7	Maxis	healthy	healthy	abdomen	right	2-P3	2	30
+V5-leg-healthy-4A3	30		20	P4_4A3v5_Healthy_GA3_01_24268.mzXML				1060		70	5	male	4A3	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V2-elbow-psoriasis-2B8	30	0.01	15	P2_2B8v2_Psoriasis_GB8_01_24391.mzXML	0.141177		0.555221	294	0.431831	1312	2	male	2B8	Maxis	psoriasis	psoriasis	elbow	right	2-P2	2	50
+V2-arm-healthy-2B11	30	0.01	15	P2_2B11v2_Healthy_GB11_01_24373.mzXML	0.144382		0.555866	154.5	0.403768	1363	2	male	2B11	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V2-arm-psoriasis-2C5	30	0.01	15	P2_2C5v2_Psoriasis_GC5_01_24382.mzXML	0.157468		0.557204	372	0.456014	1253	2	male	2C5	Maxis	psoriasis	psoriasis	arm	right	2-P2	2	50
+V2-arm-healthy-2A12	30	0.01	15	P2_2A12v2_Healthy_GA12_01_24358.mzXML	0.145416		0.541876	169.5	0.401734	1388	2	male	2A12	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V1-Left-elbow-Healthy-RC9	150	0.015	25	1C9_RC9_01_15851.mzXML	0.267905		0.336691	360	0.285249	605	1	female	RC9	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V5-leg-psoriasis-4A9	30		20	P4_4A9v5_Psoriasis_GA9_01_24276.mzXML				1240		75	5	male	4A9	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V5-forehead-psoriasis-4C11	30		20	P4_4C11v5_Psoriasis_GC11_01_24299.mzXML				848		98	5	male	4C11	Maxis	psoriasis	psoriasis	forehead	middle	2-P4	2	28
+V2-arm-healthy-2A3	30	0.01	15	P2_2A3v2_Healthy_GA3_01_24364.mzXML	0.1623		0.508739	588	0.473543	1235	2	male	2A3	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V1-Left-elbow-Healthy-RC3	150	0.015	25	1C3_RC3_01_15845.mzXML	0.278598		0.333917	290	0.264953	675	1	female	RC3	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V2-elbow-psoriasis-partial-2A7	30	0.01	15	P2_2A7v2_PsoriasisPartial_GA7_01_24385.mzXML	0.146041		0.538371	402	0.445493	1303	2	male	2A7	Maxis	psoriasis_partial	psoriasis	elbow	left	2-P2	2	50
+V2-arm-healthy-2A4	30	0.01	15	P2_2A4v2_Healthy_GA4_01_24368.mzXML	0.156862		0.516139	541.5	0.466626	1252	2	male	2A4	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V3-lower-leg-healthy-2F1	30	0.01	15	P2_2F1v3_Healthy_GF1_01_24395.mzXML	1.030502		1.278902	253	1.727221	1680	3	male	2F1	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V5-leg-psoriasis-4B12	30		20	P4_4B12v5_Psoriasis_GB12_01_24284.mzXML				1122		490	5	male	4B12	Maxis	psoriasis	psoriasis	leg	left	2-P4	2	28
+V2-arm-healthy-2B5	30	0.01	15	P2_2B5v2_Healthy_GB5_01_24363.mzXML	0.155094		0.5403	433.5	0.460267	1261	2	male	2B5	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V2-arm-healthy-2C1	30	0.01	15	P2_2C1v2_Healthy_GC1_01_24376.mzXML	0.174159		0.528141	558	0.485696	1185	2	male	2C1	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V1-Right-elbow-healthy-A11				1A11_RA11_01_15827.mzXML							1	female	A11	Maxis	healthy	healthy	Right_elbow	right	1-P1	1	70
+V2-arm-healthy-2C10	30	0.01	15	P2_2C10v2_Healthy_GC10_01_24355.mzXML	0.151614		0.567058	139.5	0.406868	1338	2	male	2C10	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V4-behind-ear-healthy-3A12	30	1	30	P3_3A12v4_Healthy_BA12_01_24346.mzXML	41.1236		55.084	356	30.4387	2792	4	male	3A12	Maxis	healthy	healthy	behind_ear	left	2-P3	2	30
+V2-arm-healthy-2C3	30	0.01	15	P2_2C3v2_Healthy_GC3_01_24378.mzXML	0.166782		0.542973	465	0.471388	1219	2	male	2C3	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V1-Right-elbow-psoriasis-A9				1A9_RA9_01_15835.mzXML							1	female	A9	Maxis	psoriasis	psoriasis	Right_elbow	left	1-P1	1	70
+V1-Left-elbow-Healthy-RC7	150	0.015	25	1C7_RC7_01_15849.mzXML	0.276523		0.354946	220	0.250414	605	1	female	RC7	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V2-arm-healthy-2A6	30	0.01	15	P2_2A6v2_Healthy_GA6_01_24370.mzXML	0.148996		0.530853	448.5	0.453416	1286	2	male	2A6	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V1-Left-elbow-Psoriasis-RD7	150	0.015	25	1D7_RD7_01_15866.mzXML	0.260359		0.36355	360	0.29675	485	1	female	RD7	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V2-arm-healthy-2C11	30	0.01	15	P2_2C11v2_Healthy_GC11_01_24356.mzXML	0.155272		0.566495	93	0.396764	1355	2	male	2C11	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V2-arm-healthy-2B2	30	0.01	15	P2_2B2v2_Healthy_GB2_01_24360.mzXML	0.165957		0.519026	573	0.480765	1210	2	male	2B2	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V2-arm-psoriasis-2A10	30	0.01	15	P2_2A10v2_Psoriasis_GA10_01_24388.mzXML	0.142099		0.541852	262.5	0.419872	1354	2	male	2A10	Maxis	psoriasis	psoriasis	arm	left	2-P2	2	50
+V2-arm-healthy-2B4	30	0.01	15	P2_2B4v2_Healthy_GB4_01_24362.mzXML	0.157997		0.532675	480	0.467298	1244	2	male	2B4	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V1-Left-elbow-healthy-RB3	200		35	1B3_RB3_01_15829.mzXML				358		150	1	female	RB3	Maxis	healthy	healthy	Left_elbow	left	1-P1	1	70
+V1-Mid-lower-back-healthy-RB7	200		35	1B7_RB7_01_15831.mzXML				582		806	1	female	RB7	Maxis	healthy	healthy	Mid_lower_back	na	1-P1	1	70
+V1-Left-elbow-psoriasis-RB2	200		35	1B2_RB2_01_15836.mzXML				450		226	1	female	RB2	Maxis	psoriasis	psoriasis	Left_elbow	left	1-P1	1	70
+V2-arm-healthy-2B1	30	0.01	15	P2_2B1v2_Healthy_GB1_01_24359.mzXML	0.147623		0.542236	123	0.3928	1405	2	male	2B1	Maxis	healthy	healthy	arm	left	2-P2	2	50
+V2-elbow-psoriasis-partial-2A8	30	0.01	15	P2_2A8v2_PsoriasisPartial_GA8_01_24386.mzXML	0.143193		0.5403	355.5	0.436885	1320	2	male	2A8	Maxis	psoriasis_partial	psoriasis	elbow	left	2-P2	2	50
+V2-arm-healthy-2C9	30	0.01	15	P2_2C9v2_Healthy_GC9_01_24119.mzXML	0.148537		0.567513	186	0.415501	1321	2	male	2C9	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V1-Mid-lower-back-healthy-RB8	200		35	1B8_RB8_01_15832.mzXML				516		1050	1	female	RB8	Maxis	healthy	healthy	Mid_lower_back	na	1-P1	1	70
+V1-Right-hairline-psoriasis-A5	200		35	1A5_RA5_01_15833.mzXML				224		854	1	female	A5	Maxis	psoriasis	psoriasis	Right_hairline	right	1-P1	1	70
+V3-lower-leg-psoriasis-2D5	30	0.01	15	P2_2D5v3_Psoriasis_GD5_01_24433.mzXML	1.033575		1.32599	357	1.709891	1610	3	male	2D5	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-psoriasis-2E2	30	0.01	15	P2_2E2v3_Psoriasis_GE2_01_24424.mzXML	1.022909		1.315129	357	1.706885	1645	3	male	2E2	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-psoriasis-2E11	30	0.01	15	P2_2E11v3_Psoriasis_GE11_01_24428.mzXML	1.015981		1.302957	357	1.702625	1680	3	male	2E11	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-psoriasis-2D4	30	0.01	15	P2_2D4v3_Psoriasis_GD4_01_24435.mzXML	1.027433		1.33847	409	1.696331	1610	3	male	2D4	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-healthy-2E4	30	0.01	15	P2_2E4v3_Healthy_GE4_01_24411.mzXML	1.036951		1.291479	253	1.731504	1645	3	male	2E4	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V4-eyebrow-psoriasis-3A3	30	1	30	P3_3A3v4_Psoriasis_BA3_01_24325.mzXML	44.402929		48.214125	164	42.167019	2548	4	male	3A3	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V3-lower-leg-healthy-2D11	30	0.01	15	P2_2D11v3_Healthy_GD11_01_24404.mzXML	1.004491		1.352916	513	1.666178	1645	3	male	2D11	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V4-eyebrow-psoriasis-3A4	30	1	30	P3_3A4v4_Psoriasis_Rerun_BA4_01_24345.mzXML	43.522657		49.428097	164	42.024954	2590	4	male	3A4	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V4-temple-psoriasis-3A10	30	1	30	P3_3A10v4_Psoriasis_BA10_01_24343.mzXML	36.087938		53.368054	310	33.573796	2916	4	male	3A10	Maxis	psoriasis	psoriasis	temple	left	2-P3	2	30
+V3-lower-leg-healthy-2D9	30	0.01	15	P2_2D9v3_Healthy_GD9_01_24410.mzXML	1.061472		1.275899	149	1.761137	1610	3	male	2D9	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V3-lower-leg-healthy-2D12	30	0.01	15	P2_2D12v3_Healthy_GD12_01_24405.mzXML	1.010601		1.340193	461	1.680336	1645	3	male	2D12	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V3-lower-leg-psoriasis-2E3	30	0.01	15	P2_2E3v3_Psoriasis_GE3_01_24425.mzXML	1.030834		1.303415	305	1.719853	1645	3	male	2E3	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-healthy-2E9	30	0.01	15	P2_2E9v3_Healthy_GE9_01_24419.mzXML	1.000913		1.329432	461	1.674482	1680	3	male	2E9	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V4-abdomen-psoriasis-3B5	30		30	P3_3B5v4_Psoriasis_BB5_01_24324.mzXML				304		2640	4	male	3B5	Maxis	psoriasis	psoriasis	abdomen	right	2-P3	2	30
+V3-lower-leg-healthy-2D2	30	0.01	15	P2_2D2v3_Healthy_GD2_01_24400.mzXML	1.016614		1.363042	513	1.669418	1610	3	male	2D2	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V3-lower-leg-psoriasis-2E12	30	0.01	15	P2_2E12v3_Psoriasis_GE12_01_24429.mzXML	1.022959		1.290686	305	1.714872	1680	3	male	2E12	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V4-temple-healthy-3A11	30	1	30	P3_3A11v4_Healthy_BA11_01_24318.mzXML	42.531776		55.948027	84	33.134358	2904	4	male	3A11	Maxis	healthy	healthy	temple	left	2-P3	2	30
+V3-lower-leg-healthy-2D10	30	0.01	15	P2_2D10v3_Healthy_GD10_01_24403.mzXML	1.000049		1.366473	565	1.650746	1645	3	male	2D10	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V5-forehead-psoriasis-4C5	30		20	P4_4C5v5_Psoriasis_GC5_01_24296.mzXML				850		370	5	male	4C5	Maxis	psoriasis	psoriasis	forehead	middle	2-P4	2	28
+V3-lower-leg-psoriasis-2D6	30	0.01	15	P2_2D6v3_Psoriasis_GD6_01_24434.mzXML	1.040912		1.31272	305	1.72366	1610	3	male	2D6	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V5-forehead-healthy-4C10	30		20	P4_4C10v5_Healthy_GC10_01_24291.mzXML				871		138	5	male	4C10	Maxis	healthy	healthy	forehead	middle	2-P4	2	28
+V5-leg-healthy-4B3	30		20	P4_4B3v5_Healthy_GB3_01_24263.mzXML				1060		447	5	male	4B3	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V4-eyebrow-healthy-3A8	30	1	30	P3_3A8v4_Healthy_BA8_01_24317.mzXML	43.89805		51.700812	130	40.600521	2662	4	male	3A8	Maxis	healthy	healthy	eyebrow	left	2-P3	2	30
+V4-eyebrow-psoriasis-3A5	30	1	30	P3_3A5v4_Psoriasis_BA5_01_24329.mzXML	42.500835		50.561013	151	41.67947	2612	4	male	3A5	Maxis	psoriasis	psoriasis	eyebrow	left	2-P3	2	30
+V3-lower-leg-psoriasis-2E1	30	0.01	15	P2_2E1v3_Psoriasis_GE1_01_24423.mzXML	1.016552		1.328754	409	1.692712	1645	3	male	2E1	Maxis	psoriasis	psoriasis	lower_leg	left	2-P2	2	60
+V3-lower-leg-healthy-2E8	30	0.01	15	P2_2E8v3_Healthy_GE8_01_24418.mzXML	0.994317		1.340374	513	1.659918	1680	3	male	2E8	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V2-arm-healthy-2C8	30	0.01	15	P2_2C8v2_Healthy_GC8_01_24118.mzXML	0.146175		0.568236	232.5	0.425653	1304	2	male	2C8	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V5-leg-healthy-4B4	30		20	P4_4B4v5_Healthy_Rerun2_GB4_01_24349.mzXML				1111.5		438.5	5	male	4B4	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V3-lower-leg-healthy-2E6	30	0.01	15	P2_2E6v3_Healthy_GE6_01_24415.mzXML	1.051642		1.264615	149	1.758218	1645	3	male	2E6	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V5-forehead-healthy-4C9	30		20	P4_4C9v5_Healthy_GC9_01_24290.mzXML				969		267	5	male	4C9	Maxis	healthy	healthy	forehead	middle	2-P4	2	28
+V4-abdomen-healthy-3B6	30		30	P3_3B6v4_Healthy_BB6_01_24309.mzXML				304		2564	4	male	3B6	Maxis	healthy	healthy	abdomen	right	2-P3	2	30
+V4-temple-psoriasis-3B1	30	1	30	P3_3B1v4_Psoriasis_BB1_01_24322.mzXML	46.089262		37.615437	252	36.176093	2392	4	male	3B1	Maxis	psoriasis	psoriasis	temple	right	2-P3	2	30
+V5-leg-healthy-4B10	30		20	P4_4B10v5_Healthy_GB10_01_24259.mzXML				1375		374	5	male	4B10	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V5-forehead-psoriasis-4C7	30		20	P4_4C7v5_Psoriasis_GC7_01_24298.mzXML				928		156	5	male	4C7	Maxis	psoriasis	psoriasis	forehead	middle	2-P4	2	28
+V5-leg-psoriasis-4B7	30		20	P4_4B7v5_Psoriasis_GB7_01_24281.mzXML				1239		449	5	male	4B7	Maxis	psoriasis	psoriasis	leg	left	2-P4	2	28
+V5-leg-healthy-4A10	30		20	P4_4A10v5_Healthy_GA10_01_24267.mzXML				1309		83	5	male	4A10	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V5-leg-psoriasis-4A8	30		20	P4_4A8v5_Psoriasis_GA8_01_24275.mzXML				1204		74	5	male	4A8	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V3-lower-leg-healthy-2D3	30	0.01	15	P2_2D3v3_Healthy_GD3_01_24401.mzXML	1.02185		1.351313	461	1.683159	1610	3	male	2D3	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V5-forehead-healthy-4C4	30		20	P4_4C4v5_Healthy_GC4_01_24295.mzXML				893		478	5	male	4C4	Maxis	healthy	healthy	forehead	middle	2-P4	2	28
+V5-forehead-healthy-4C8	30		20	P4_4C8v5_Healthy_GC8_01_24289.mzXML				945		385	5	male	4C8	Maxis	healthy	healthy	forehead	middle	2-P4	2	28
+V3-lower-leg-healthy-2D1	30	0.01	15	P2_2D1v3_Healthy_GD1_01_24399.mzXML	1.01131		1.376099	565	1.653082	1610	3	male	2D1	Maxis	healthy	healthy	lower_leg	left	2-P2	2	60
+V5-leg-healthy-4B5	30		20	P4_4B5v5_Healthy_GB5_01_24265.mzXML				1163		430	5	male	4B5	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V5-leg-psoriasis-4A12	30		20	P4_4A12v5_Psoriasis_GA12_01_24280.mzXML				1376		125	5	male	4A12	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V5-leg-psoriasis-4A7	30		20	P4_4A7v5_Psoriasis_GA7_01_24274.mzXML				1180		136	5	male	4A7	Maxis	psoriasis	psoriasis	leg	right	2-P4	2	28
+V2-arm-healthy-2C2	30	0.01	15	P2_2C2v2_Healthy_GC2_01_24377.mzXML	0.170375		0.536149	511.5	0.478284	1202	2	male	2C2	Maxis	healthy	healthy	arm	right	2-P2	2	50
+V5-leg-healthy-4B1	30		20	P4_4B1v5_Healthy_GB1_01_24261.mzXML				1409		131	5	male	4B1	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V5-leg-healthy-4B11	30		20	P4_4B11v5_Healthy_GB11_01_24260.mzXML				1409		389	5	male	4B11	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V5-leg-healthy-4B6	30		20	P4_4B6v5_Healthy_GB6_01_24266.mzXML				1239		375	5	male	4B6	Maxis	healthy	healthy	leg	left	2-P4	2	28
+V5-leg-healthy-4A5	30		20	P4_4A5v5_Healthy_GA5_01_24270.mzXML				1130		70	5	male	4A5	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V2-elbow-psoriasis-2C6	30	0.01	15	P2_2C6v2_Psoriasis_GC6_01_24383.mzXML	0.150142		0.5639	325.5	0.446149	1270	2	male	2C6	Maxis	psoriasis	psoriasis	elbow	right	2-P2	2	50
+V5-leg-healthy-4A4	30		20	P4_4A4v5_Healthy_GA4_01_24269.mzXML				1095		70	5	male	4A4	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V5-leg-healthy-4B2	30		20	P4_4B2v5_Healthy_GB2_01_24262.mzXML				1244		151	5	male	4B2	Maxis	healthy	healthy	leg	right	2-P4	2	28
+V5-forehead-healthy-4C2	30		20	P4_4C2v5_Healthy_GC2_01_24292.mzXML				793		461	5	male	4C2	Maxis	healthy	healthy	forehead	middle	2-P4	2	28

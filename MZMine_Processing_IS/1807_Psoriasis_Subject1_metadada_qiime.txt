@@ -1,0 +1,37 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V1-Right-elbow-healthy-A12				1A12_RA12_01_15828.mzXML							1	female	A12	Maxis	healthy	healthy	Right_elbow	right	1-P1	1	70
+V1-Left-elbow-psoriasis-RB1	200		35	1B1_RB1_01_15819.mzXML				510		202	1	female	RB1	Maxis	psoriasis	psoriasis	Left_elbow	left	1-P1	1	70
+V1-Left-elbow-Healthy-RD3	150	0.015	25	1D3_RD3_01_15864.mzXML	0.261981		0.340456	430	0.309584	545	1	female	RD3	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC11	150	0.015	25	1C11_RC11_01_15853.mzXML	0.281924		0.380225	150	0.237504	545	1	female	RC11	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RD1	150	0.015	25	1D1_RD1_01_15862.mzXML	0.266679		0.358747	290	0.274366	545	1	female	RD1	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Right-hairline-healthy-A7	200		35	1A7_RA7_01_15816.mzXML				148		810	1	female	A7	Maxis	healthy	healthy	Right_hairline	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RD6	150	0.015	25	1D6_RD6_01_15865.mzXML	0.269402		0.373099	290	0.280793	485	1	female	RD6	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Right-hairline-psoriasis-A6	200		35	1A6_RA6_01_15834.mzXML				194		902	1	female	A6	Maxis	psoriasis	psoriasis	Right_hairline	right	1-P1	1	70
+V1-Right-elbow-psoriasis-A10				1A10_RA10_01_15815.mzXML							1	female	A10	Maxis	psoriasis	psoriasis	Right_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC6	150	0.015	25	1C6_RC6_01_15848.mzXML	0.2829		0.3652	150	0.2323	605	1	female	RC6	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RD2	150	0.015	25	1D2_RD2_01_15863.mzXML	0.261656		0.349184	360	0.29094	545	1	female	RD2	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-healthy-RB4	200		35	1B4_RB4_01_15830.mzXML				322		314	1	female	RB4	Maxis	healthy	healthy	Left_elbow	left	1-P1	1	70
+V1-Left-elbow-Healthy-RC5	150	0.015	25	1C5_RC5_01_15847.mzXML	0.275566		0.3167	430	0.30191	675	1	female	RC5	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Mid-lower-back-psoriasis-RB5	200		35	1B5_RB5_01_15817.mzXML				554		904	1	female	RB5	Maxis	psoriasis	psoriasis	Mid_lower_back	na	1-P1	1	70
+V1-Left-elbow-Healthy-RD5	150	0.015	25	1D5_RD5_01_15857.mzXML	0.27785		0.383368	220	0.261843	485	1	female	RD5	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC2	150	0.015	25	1C2_RC2_01_15870.mzXML	0.282646		0.342164	220	0.247809	675	1	female	RC2	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RD4	150	0.015	25	1D4_RD4_01_15856.mzXML	0.283828		0.392716	150	0.243682	485	1	female	RD4	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RC12	150	0.015	25	1C12_RC12_01_15854.mzXML	0.275515		0.369536	220	0.255351	545	1	female	RC12	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC1	150	0.015	25	1C1_RC1_01_15842.mzXML	0.289642		0.352236	150	0.228501	675	1	female	RC1	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Right-hairline-healthy-A8	200		35	1A8_RA8_01_15826.mzXML				110		866	1	female	A8	Maxis	healthy	healthy	Right_hairline	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RD8	150	0.015	25	1D8_RD8_01_15867.mzXML	0.256537		0.354973	430	0.313114	485	1	female	RD8	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC4	150	0.015	25	1C4_RC4_01_15846.mzXML	0.275129		0.326751	360	0.282531	675	1	female	RC4	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Mid-lower-back-psoriasis-RB6	200		35	1B6_RB6_01_15837.mzXML				540		952	1	female	RB6	Maxis	psoriasis	psoriasis	Mid_lower_back	na	1-P1	1	70
+V1-Left-elbow-Healthy-RC8	150	0.015	25	1C8_RC8_01_15850.mzXML	0.269954		0.345056	290	0.269625	605	1	female	RC8	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC10	150	0.015	25	1C10_RC10_01_15852.mzXML	0.270574		0.327488	430	0.305995	605	1	female	RC10	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC9	150	0.015	25	1C9_RC9_01_15851.mzXML	0.267905		0.336691	360	0.285249	605	1	female	RC9	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Healthy-RC3	150	0.015	25	1C3_RC3_01_15845.mzXML	0.278598		0.333917	290	0.264953	675	1	female	RC3	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Right-elbow-healthy-A11				1A11_RA11_01_15827.mzXML							1	female	A11	Maxis	healthy	healthy	Right_elbow	right	1-P1	1	70
+V1-Right-elbow-psoriasis-A9				1A9_RA9_01_15835.mzXML							1	female	A9	Maxis	psoriasis	psoriasis	Right_elbow	left	1-P1	1	70
+V1-Left-elbow-Healthy-RC7	150	0.015	25	1C7_RC7_01_15849.mzXML	0.276523		0.354946	220	0.250414	605	1	female	RC7	Maxis	healthy	healthy	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-Psoriasis-RD7	150	0.015	25	1D7_RD7_01_15866.mzXML	0.260359		0.36355	360	0.29675	485	1	female	RD7	Maxis	psoriasis	psoriasis	Left_elbow	right	1-P1	1	70
+V1-Left-elbow-healthy-RB3	200		35	1B3_RB3_01_15829.mzXML				358		150	1	female	RB3	Maxis	healthy	healthy	Left_elbow	left	1-P1	1	70
+V1-Mid-lower-back-healthy-RB7	200		35	1B7_RB7_01_15831.mzXML				582		806	1	female	RB7	Maxis	healthy	healthy	Mid_lower_back	na	1-P1	1	70
+V1-Left-elbow-psoriasis-RB2	200		35	1B2_RB2_01_15836.mzXML				450		226	1	female	RB2	Maxis	psoriasis	psoriasis	Left_elbow	left	1-P1	1	70
+V1-Mid-lower-back-healthy-RB8	200		35	1B8_RB8_01_15832.mzXML				516		1050	1	female	RB8	Maxis	healthy	healthy	Mid_lower_back	na	1-P1	1	70
+V1-Right-hairline-psoriasis-A5	200		35	1A5_RA5_01_15833.mzXML				224		854	1	female	A5	Maxis	psoriasis	psoriasis	Right_hairline	right	1-P1	1	70

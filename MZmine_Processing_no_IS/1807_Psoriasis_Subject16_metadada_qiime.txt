@@ -1,0 +1,26 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V16-back-psoriasis-BG9	30		20	BG9_V16_S4-010_back_psoriasis_BG9_01_14501.mzXML				1859		2893	16	male	BG9	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-healthy-BG3	30		20	BG3_V16_S4-004_back_healthy_BG3_01_14500.mzXML				1791		2822	16	male	BG3	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BH8	30		20	BH8_V16_S4-021_back_healthy_BH8_01_14491.mzXML				2061		2624	16	male	BH8	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BG10	30		20	BG10_V16_S4-011_back_healthy_BG10_01_14480.mzXML				1936		2615	16	male	BG10	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BG2	30		20	BG2_V16_S4-003_back_healthy_BG2_01_14484.mzXML				1792		2751	16	male	BG2	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BH9	30		20	BH9_V16_S4-022_back_healthy_BH9_01_14452.mzXML				2061		2689	16	male	BH9	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BH10	30		20	BH10_V16_S4-023_back_healthy_BH10_01_14450.mzXML				2060		2755	16	male	BH10	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BG4	30		20	BG4_V16_S4-005_back_healthy_BG4_01_14463.mzXML				1787		2894	16	male	BG4	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-psoriasis-BH7	30		20	BH7_V16_S4-020_back_psoriasis_BH7_01_14446.mzXML				1994		2891	16	male	BH7	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BG12	30		20	BG12_V16_S4-013_back_psoriasis_BG12_01_14472.mzXML				1935		2753	16	male	BG12	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BH1	30		20	BH1_V16_S4-014_back_psoriasis_BH1_01_14432.mzXML				1932		2820	16	male	BH1	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BG6	30		20	BG6_V16_S4-007_back_psoriasis_BG6_01_14435.mzXML				1867		2681	16	male	BG6	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-healthy-BG1	30		20	BG1_V16_S4-002_back_healthy_BG1_01_14441.mzXML				1795		2682	16	male	BG1	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BG5	30		20	BG5_V16_S4-006_back_healthy_BG5_01_14419.mzXML				1870		2612	16	male	BG5	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BH11	30		20	BH11_V16_S4-024_back_healthy_BH11_01_14440.mzXML				2055		2822	16	male	BH11	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-psoriasis-BH2	30		20	BH2_V16_S4-015_back_psoriasis_BH2_01_14418.mzXML				1929		2893	16	male	BH2	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-healthy-BH12	30		20	BH12_V16_S4-025_back_healthy_BH12_01_14396.mzXML				2052		2892	16	male	BH12	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-psoriasis-BH5	30		20	BH5_V16_S4-018_back_psoriasis_BH5_01_14390.mzXML				2000		2754	16	male	BH5	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BG7	30		20	BG7_V16_S4-008_back_psoriasis_BG7_01_14380.mzXML				1865		2752	16	male	BG7	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-healthy-BH3	30		20	BH3_V16_S4-016_back_healthy_BH3_01_14326.mzXML				2002		2619	16	male	BH3	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BF12	30		20	BF12_V16_S4-001_back_healthy_BF12_01_14373.mzXML				1797		2611	16	male	BF12	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-healthy-BH4	30		20	BH4_V16_S4-017_back_healthy_BH4_01_14339.mzXML				2001		2686	16	male	BH4	Maxis	healthy	healthy	back	middle	4-P1	4	51
+V16-back-psoriasis-BG8	30		20	BG8_V16_S4-009_back_psoriasis_BG8_01_14334.mzXML				1861		2822	16	male	BG8	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BG11	30		20	BG11_V16_S4-012_back_psoriasis_BG11_01_14318.mzXML				1936		2683	16	male	BG11	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51
+V16-back-psoriasis-BH6	30		20	BH6_V16_S4-019_back_psoriasis_BH6_01_14317.mzXML				1998		2822	16	male	BH6	Maxis	psoriasis	psoriasis	back	middle	4-P1	4	51

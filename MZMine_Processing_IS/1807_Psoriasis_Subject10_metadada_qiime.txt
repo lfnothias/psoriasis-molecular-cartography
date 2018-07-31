@@ -1,0 +1,15 @@
+#SampleID	test	radius+	radius	ZSampleID	Z+	Z	Y+	Y	X+	X	Subject	Sex	Name	MassSpec	DESCRIPTION_3	DESCRIPTION_2	DESCRIPTION	Body_side	Batch-Plate	Batch	Age
+V10-arm-healthy-BC3	30		20	BC3_7C3.V10_BC3_01_464.mzXML				996		2414	10	female	BC3	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V10-arm-healthy-BC6	30		20	BC6_7C6.V10_BC6_01_433.mzXML				1074		2370	10	female	BC6	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V10-back-healthy-BC9	30		20	BC9_7C9.V10_BC9_01_380.mzXML				1162		2846	10	female	BC9	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-arm-psoriasis-BC7	30		20	BC7_7C7.V10_BC7_01_472.mzXML				1068		2432	10	female	BC7	Maxis	psoriasis	psoriasis	arm	left	3-P1	3	20
+V10-back-healthy-BC8	30		20	BC8_7C8.V10_BC8_01_417.mzXML				1036		2806	10	female	BC8	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-back-healthy-BE12	30		20	BE12_7E12.V10_BE12_01_469.mzXML				974		2718	10	female	BE12	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-arm-healthy-BC4	30		20	BC4_7C4.V10_BC4_01_428.mzXML				1066		2486	10	female	BC4	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V10-arm-healthy-BC5	30		20	BC5_7C5.V10_BC5_01_437.mzXML				1142		2442	10	female	BC5	Maxis	healthy	healthy	arm	left	3-P1	3	20
+V10-back-psoriasis-BD11	30		20	BD11_7D11.V10_BD11_01_401.mzXML				1010		2628	10	female	BD11	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V10-back-healthy-BC10	30		20	BC10_7C10.V10_BC10_01_377.mzXML				1146		2612	10	female	BC10	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-back-psoriasis-BD12	30		20	BD12_7D12.V10_BD12_01_379.mzXML				1042		2632	10	female	BD12	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V10-back-healthy-BC11	30		20	BC11_7C11.V10_BC11_01_398.mzXML				1068		2548	10	female	BC11	Maxis	healthy	healthy	back	middle	3-P1	3	20
+V10-back-psoriasis-BE11	30		20	BE11_7E11.V10_BE11_01_456.mzXML				1134		2776	10	female	BE11	Maxis	psoriasis	psoriasis	back	middle	3-P1	3	20
+V10-back-healthy-BC12	30		20	BC12_7C12.V10_BC12_01_441.mzXML				972		2592	10	female	BC12	Maxis	healthy	healthy	back	middle	3-P1	3	20
